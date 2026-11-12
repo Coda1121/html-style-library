@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML 風格靈感庫</title>
+<meta name="description" content="49 種網頁設計風格、18 組配色與 12 組字體搭配的靈感庫：每個風格都有實際樣式預覽、色票、prompt 關鍵字與可直接貼給 AI 的一段話 prompt。">
+<meta name="theme-color" content="#1A1A18">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231A1A18'/%3E%3Crect x='7' y='7' width='8' height='8' rx='2' fill='%23FF5C39'/%3E%3Crect x='17' y='7' width='8' height='8' rx='4' fill='%23C8F560'/%3E%3Crect x='7' y='17' width='8' height='8' rx='4' fill='%235B8CFF'/%3E%3Crect x='17' y='17' width='8' height='8' rx='2' fill='%23F4F1EA'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HTML 風格靈感庫｜2026 網頁設計風格、配色與字體">
+<meta property="og:description" content="49 種網頁設計風格、18 組配色與 12 組字體搭配的靈感庫：每個風格都有實際樣式預覽、色票、prompt 關鍵字與可直接貼給 AI 的一段話 prompt。">
+<meta property="og:image" content="https://coda1121.github.io/html-style-library/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HTML 風格靈感庫｜2026 網頁設計風格、配色與字體">
+<meta name="twitter:description" content="49 種網頁設計風格、18 組配色與 12 組字體搭配的靈感庫：每個風格都有實際樣式預覽、色票、prompt 關鍵字與可直接貼給 AI 的一段話 prompt。">
+<meta name="twitter:image" content="https://coda1121.github.io/html-style-library/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Cormorant+Garamond:wght@400;600&family=Playfair+Display:wght@400..900&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400..900;1,400..900&family=Manrope:wght@400..800&family=Bricolage+Grotesque:wght@400..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400..900&family=Bebas+Neue&family=Caveat:wght@400..700&family=Orbitron:wght@400..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --primary-lightest:#DCDCD6;--primary-light:#8C8C86;--primary:#1A1A18;--primary-dark:#1A1A18;--primary-darkest:#000000;
+  --bg-base:#EDEDE9;--bg-surface:#FFFFFF;
+  --text-primary:#181D20;--text-secondary:#3F484F;--text-tertiary:#7A8288;--text-on-primary:#FFFFFF;
+  --border-subtle:#EBECED;--border-default:#C1C5C8;--border-strong:#7A8288;
+  --font-sans:"Inter","Noto Sans TC",system-ui,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --radius-pill:999px;--radius-md:8px;
+  --shadow-sm:0 1px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08);
+  --shadow-lg:0 4px 8px rgba(0,0,0,.08),0 12px 32px rgba(0,0,0,.16);
+  --shadow-special:0 0 8px var(--primary-lightest);
+  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%;margin:0}
+body{background:var(--bg-base);color:var(--text-primary);font:400 16px/1.6 var(--font-sans);display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--primary);outline-offset:2px}
+svg.ic{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+.nav{flex:none;min-height:56px;background:var(--bg-surface);border-bottom:1px solid var(--border-default);display:flex;align-items:stretch;gap:16px;padding:0 32px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;font-weight:700;font-size:18px;letter-spacing:-.01em;white-space:nowrap}
+.brand small{font-weight:400;font-size:14px;color:var(--text-tertiary);margin-left:8px}
+.tabs{display:flex;align-self:stretch}
+.tab{border:0;background:none;padding:0 24px;min-height:56px;font-size:14px;font-weight:700;color:var(--text-tertiary);border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap}
+.tab:hover{background:var(--border-subtle)}
+.tab[aria-selected="true"]{color:var(--primary-dark);border-bottom-color:var(--primary)}
+.tab span{font-weight:400;margin-left:4px;font-variant-numeric:tabular-nums}
+.search{margin-left:auto;display:flex;align-items:center;position:relative;min-width:220px;flex:0 1 320px;padding:10px 0}
+.search svg{position:absolute;left:8px;color:var(--text-tertiary)}
+.search input{width:100%;height:34px;border:1px solid var(--border-default);border-radius:8px;padding:4px 8px 4px 32px;background:var(--bg-surface)}
+.search input:hover{border-color:var(--primary)}
+.search input:focus{outline:0;border-color:var(--primary);box-shadow:var(--shadow-special)}
+.search input::placeholder{color:var(--border-default)}
+
+.work{flex:1;min-height:0;display:flex;gap:8px;padding:8px}
+.panel{background:var(--bg-surface);min-height:0;display:flex;flex-direction:column}
+.side{width:296px;flex:none}
+.side .scroll{padding:16px;display:flex;flex-direction:column;gap:16px}
+.scroll{overflow:auto;min-height:0;flex:1}
+.main{flex:1;min-width:0}
+.fg h3{margin:0 0 8px;font-size:14px;font-weight:700;color:var(--text-secondary)}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{height:28px;padding:0 12px;border-radius:999px;border:1px solid var(--border-default);background:var(--bg-surface);color:var(--text-secondary);font-size:14px;line-height:26px;cursor:pointer;white-space:nowrap}
+.tag:hover{border-color:var(--primary);color:var(--primary-dark)}
+.tag[aria-pressed="true"]{background:var(--primary-dark);border-color:var(--primary-dark);color:var(--text-on-primary)}
+.tag i{font-style:normal;opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
+.note{font-size:14px;color:var(--text-tertiary);border-top:1px solid var(--border-subtle);padding-top:16px;margin-top:auto}
+.note b{color:var(--text-secondary);font-weight:600}
+
+.bar{flex:none;min-height:40px;display:flex;align-items:center;gap:16px;padding:0 16px;border-bottom:1px solid var(--border-subtle);font-size:14px;color:var(--text-secondary);flex-wrap:wrap}
+.bar strong{color:var(--text-primary);font-variant-numeric:tabular-nums}
+.bar .hint{color:var(--text-tertiary);margin-left:auto}
+.btn{height:36px;padding:0 16px;border-radius:999px;font-size:14px;font-weight:700;display:inline-flex;align-items:center;gap:8px;cursor:pointer;border:1px solid var(--border-default);background:var(--bg-surface);white-space:nowrap}
+.btn:hover{border-color:var(--primary);color:var(--primary-dark)}
+.btn.pri{background:var(--primary-dark);border-color:var(--primary-dark);color:#fff}
+.btn.pri:hover{background:var(--primary-darkest);color:#fff}
+.btn.ghost{border-color:transparent;height:28px;padding:0 8px;color:var(--primary-dark)}
+.btn.ghost:hover{background:var(--border-subtle)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;padding:16px}
+.card{border:1px solid var(--border-subtle);border-radius:8px;background:var(--bg-surface);cursor:pointer;display:flex;flex-direction:column;text-align:left;min-width:0}
+.card:hover{border-color:var(--primary);box-shadow:var(--shadow-special)}
+.cb{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.ct{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.ct h2{margin:0;font-size:16px;font-weight:600;line-height:1.4}
+.ct span{font-size:14px;color:var(--text-tertiary)}
+.cd{margin:0;font-size:14px;color:var(--text-secondary)}
+.badges{display:flex;gap:4px;flex-wrap:wrap}
+.badge{height:20px;padding:0 8px;border-radius:999px;font-size:14px;font-weight:600;line-height:20px;background:var(--border-subtle);color:var(--text-secondary);white-space:nowrap}
+.badge.hot{background:var(--text-primary);color:#fff}
+.cf{display:flex;align-items:center;gap:8px;margin-top:auto;padding-top:8px}
+.dots{display:flex}
+.dots i{width:20px;height:20px;border-radius:50%;border:1px solid rgba(0,0,0,.14);margin-left:-4px}
+.dots i:first-child{margin-left:0}
+.kwl{font-size:14px;color:var(--text-tertiary);line-height:1.4;min-width:0}
+.foot{padding:16px;border-top:1px solid var(--border-subtle);font-size:14px;color:var(--text-tertiary)}
+.foot p{margin:0 0 16px}
+.foot h3{margin:0 0 4px;font-size:14px;font-weight:700;color:var(--text-secondary)}
+.foot ul{margin:0;padding-left:20px;columns:2 320px;column-gap:32px}
+.foot a{color:var(--text-secondary);text-underline-offset:3px}
+.foot a:hover{color:var(--text-primary)}
+.empty{padding:64px 16px;text-align:center;color:var(--text-tertiary)}
+.empty b{display:block;color:var(--text-primary);font-size:18px;font-weight:600}
+
+.strip{display:flex;height:72px;border-radius:8px 8px 0 0;overflow:hidden}
+.strip i{flex:1}
+.demo{margin:16px 16px 0;border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:8px;border:1px solid rgba(0,0,0,.08)}
+.demo .dc{border-radius:8px;padding:12px 16px;border:1px solid;display:flex;align-items:center;gap:8px}
+.demo .dc>div{min-width:0}
+.demo b{font-size:16px;font-weight:700}
+.demo small{font-size:14px;opacity:.7;display:block}
+.demo .db{margin-left:auto;white-space:nowrap;flex:none;font-size:14px;font-weight:700;padding:4px 16px;border-radius:999px}
+.demo .ex{display:flex;gap:4px}
+.demo .ex i{width:16px;height:16px;border-radius:50%}
+.fs{padding:24px 16px 16px;border-bottom:1px solid var(--border-subtle);min-height:168px;display:flex;flex-direction:column;gap:8px;justify-content:center;overflow-wrap:anywhere}
+.fs .fh{font-size:34px;line-height:1.1;margin:0}
+.fs .fb{font-size:15px;line-height:1.6;margin:0;color:var(--text-secondary)}
+
+.ov{position:fixed;inset:0;background:rgba(24,29,32,.48);display:flex;align-items:center;justify-content:center;padding:16px;z-index:10}
+.ov[hidden]{display:none}
+.modal{background:var(--bg-surface);border-radius:8px;box-shadow:var(--shadow-lg);width:min(1080px,100%);max-height:100%;display:flex;flex-direction:column}
+.mh{flex:none;display:flex;align-items:center;gap:8px;padding:16px 16px 16px 24px;border-bottom:1px solid var(--border-subtle)}
+.mh h2{margin:0;font-size:22px;font-weight:600;letter-spacing:-.01em;line-height:1.3}
+.mh .en{color:var(--text-tertiary);font-size:16px}
+.iconbtn{width:36px;height:36px;border-radius:8px;border:0;background:none;display:grid;place-items:center;cursor:pointer;margin-left:auto;flex:none}
+.iconbtn:hover{background:var(--border-subtle)}
+.mb{overflow:auto;padding:24px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:32px;align-items:start}
+.mb.one{grid-template-columns:1fr}
+.col{display:flex;flex-direction:column;gap:24px;min-width:0}
+.sec h3{margin:0 0 8px;font-size:14px;font-weight:700;color:var(--text-secondary);display:flex;align-items:center;gap:8px}
+.sec h3 .btn{margin-left:auto}
+.sec p{margin:0;font-size:16px;color:var(--text-primary)}
+.sec p.sub{font-size:14px;color:var(--text-secondary)}
+.pvwrap{border:1px solid var(--border-subtle);border-radius:8px;overflow:hidden}
+.pvwrap .pv{border-radius:0}
+.sw{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:8px}
+.sw button{border:1px solid var(--border-subtle);border-radius:8px;background:var(--bg-surface);padding:0;cursor:pointer;overflow:hidden;text-align:left}
+.sw button:hover{border-color:var(--primary)}
+.sw button i{display:block;height:48px;border-bottom:1px solid var(--border-subtle)}
+.sw button span{display:block;padding:4px 8px;font:400 14px/1.4 var(--font-mono)}
+.sw button em{display:block;padding:4px 8px 0;font-style:normal;font-size:14px;color:var(--text-tertiary);line-height:1.2}
+.kw{display:flex;flex-wrap:wrap;gap:8px}
+.kw button{border:1px solid var(--border-default);background:var(--bg-surface);border-radius:999px;min-height:28px;padding:2px 12px;font-size:14px;cursor:pointer;color:var(--text-secondary);text-align:left}
+.kw button:hover{border-color:var(--primary);color:var(--primary-dark)}
+ul.css{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
+ul.css li{font:400 14px/1.5 var(--font-mono);background:var(--bg-base);border-radius:8px;padding:4px 8px;overflow-wrap:anywhere}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.two label{font-size:14px;color:var(--text-secondary);display:flex;flex-direction:column;gap:4px}
+select{height:38px;border-radius:8px;border:1px solid var(--border-default);padding:0 8px;background:var(--bg-surface);font-size:14px;width:100%}
+select:hover{background:var(--border-subtle)}
+textarea{width:100%;border:1px solid var(--border-default);border-radius:8px;padding:8px;font-size:14px;line-height:1.6;resize:vertical;min-height:264px;background:var(--bg-surface)}
+textarea:focus{outline:0;border-color:var(--primary);box-shadow:var(--shadow-special)}
+.rel{display:flex;flex-wrap:wrap;gap:8px}
+.toast{position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:var(--bg-surface);border-radius:8px;box-shadow:var(--shadow-lg);padding:8px 16px;font-size:14px;font-weight:600;display:flex;align-items:center;gap:8px;z-index:20}
+.toast svg{color:var(--primary-dark)}
+.toast[hidden]{display:none}
+
+@media (max-width:900px){
+  html,body{height:auto}
+  body{display:block}
+  .nav{padding:0 16px;gap:0 16px}
+  .tab{padding:0 12px;min-height:44px}
+  .search{flex:1 1 100%;margin:0}
+  .work{flex-direction:column}
+  .side{width:auto}
+  .scroll{overflow:visible}
+  .note{display:none}
+  .mb{grid-template-columns:1fr;padding:16px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+  .bar .hint{margin-left:0}
+}
+
+.pv{position:relative;aspect-ratio:16/10;container-type:inline-size;overflow:hidden;border-radius:7px 7px 0 0;isolation:isolate;background:#fff}
+.s{position:absolute;inset:0;padding:7cqw;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:2.2cqw;font-size:3.1cqw;line-height:1.4;overflow:hidden;color:#111;font-family:Inter,"Noto Sans TC",sans-serif}
+.s *{box-sizing:border-box}
+.s h4{margin:0;font-size:8.4cqw;line-height:1.02;font-weight:700;letter-spacing:-.02em}
+.s p{margin:0;font-size:3.1cqw;max-width:62cqw;opacity:.82}
+.s .k{font-size:2.5cqw;letter-spacing:.08em;text-transform:uppercase}
+.s .r{display:flex;gap:2.5cqw;align-items:center;margin-top:1cqw}
+.s .bt{font-size:2.9cqw;font-weight:700;padding:1.8cqw 4cqw;display:inline-block;line-height:1.2}
+.s .lk{font-size:2.9cqw;font-style:normal}
+.s .dx{position:absolute;display:block}
+.s>:not(.dx){position:relative;z-index:1}
+
+.s-swiss{background:#fff linear-gradient(90deg,rgba(0,0,0,.07) 1px,transparent 1px) 7cqw 0/14.33cqw 100%;justify-content:flex-end}
+.s-swiss h4{font-weight:800;letter-spacing:-.045em;font-size:10.5cqw;line-height:.95}
+.s-swiss .k{color:#E30613;font-weight:700}
+.s-swiss .bt{background:#111;color:#fff}
+.s-swiss .a{right:7cqw;top:7cqw;width:14.3cqw;height:14.3cqw;background:#E30613}
+.s-swiss .b{left:7cqw;top:7cqw;font-size:2.5cqw;font-weight:700}
+.s-editorial{background:#F4F1EA;color:#1A1A1A}
+.s-editorial .k{width:100%;border-top:1px solid #1A1A1A;border-bottom:1px solid #1A1A1A;padding:1cqw 0;display:flex;justify-content:space-between;letter-spacing:.14em}
+.s-editorial h4{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:12cqw;line-height:.95;letter-spacing:-.02em}
+.s-editorial h4 em{color:#7A1F1F}
+.s-editorial p{column-count:2;column-gap:4cqw;max-width:none;font-size:2.6cqw;opacity:1;column-rule:1px solid #cfc6b6}
+.s-japandi{background:#EFEAE0;color:#3A3731;flex-direction:row;align-items:stretch;justify-content:flex-end;gap:8cqw;padding:9cqw}
+.s-japandi .v{writing-mode:vertical-rl;font-family:"Noto Serif TC",serif;font-size:8cqw;letter-spacing:.25em;line-height:1}
+.s-japandi .t{align-self:flex-end;display:flex;flex-direction:column;gap:2cqw;margin-right:auto;order:-1;max-width:38cqw}
+.s-japandi .k{color:#8C8373;letter-spacing:.3em}
+.s-japandi p{font-family:"Noto Serif TC",serif;font-size:2.9cqw;line-height:1.9}
+.s-japandi .a{left:9cqw;top:9cqw;width:13cqw;height:13cqw;border-radius:50%;background:#A8553A;opacity:.88}
+.s-japandi .b{right:30cqw;top:0;bottom:0;width:1px;background:#3A3731;opacity:.25}
+.s-quietlux{background:#12110F;color:#E9E2D3;align-items:center;text-align:center;gap:3cqw}
+.s-quietlux .k{color:#B89B6A;letter-spacing:.42em;font-size:2.2cqw}
+.s-quietlux h4{font-family:"Cormorant Garamond",Georgia,serif;font-weight:400;font-size:10cqw;letter-spacing:0}
+.s-quietlux h4 em{font-style:italic;color:#B89B6A}
+.s-quietlux .bt{border:1px solid #B89B6A;color:#E9E2D3;font-weight:400;letter-spacing:.3em;text-transform:uppercase;font-size:2.2cqw;padding:2cqw 5cqw}
+.s-quietlux .a{top:7cqw;left:50%;width:1px;height:6cqw;background:#B89B6A}
+.s-mono{background:#FAFAFA;color:#111;font-family:"IBM Plex Mono",ui-monospace,monospace;gap:1.6cqw}
+.s-mono h4{font-size:6cqw;font-weight:600;letter-spacing:-.03em;line-height:1.15}
+.s-mono .k{color:#888;text-transform:none;letter-spacing:0;font-size:2.7cqw}
+.s-mono p{font-size:2.7cqw;color:#888;opacity:1;white-space:nowrap}
+.s-mono .bt{border:1px solid #111;font-weight:400;font-size:2.7cqw}
+.s-mono .lk{font-size:2.7cqw;text-decoration:underline;text-underline-offset:.8cqw}
+.s-calm{background:#F4F6F3;color:#1F2A24;align-items:center;text-align:center;font-family:Manrope,Inter,sans-serif;gap:3cqw}
+.s-calm h4{font-size:7cqw;font-weight:600;line-height:1.15}
+.s-calm p{max-width:50cqw;color:#7C8A83;opacity:1}
+.s-calm .bt{background:#2F6F5E;color:#fff;border-radius:99cqw;padding:2.2cqw 6cqw}
+.s-calm .a{width:46cqw;height:46cqw;border-radius:50%;background:#E3E8E2;right:-14cqw;bottom:-22cqw}
+.s-structural{background:#F5F5F2;color:#1A1A1A;padding:0;display:grid;align-items:stretch;justify-content:stretch;grid-template-columns:2fr 1fr 1fr;grid-template-rows:1fr 1fr;gap:0}
+.s-structural .c{border-right:1px solid #1A1A1A;border-bottom:1px solid #1A1A1A;padding:3.5cqw;display:flex;flex-direction:column;justify-content:space-between;font-weight:700;font-size:4cqw}
+.s-structural .c.a{grid-row:span 2}
+.s-structural .c.o{background:#FF4F00;color:#fff}
+.s-structural .k{font-family:"IBM Plex Mono",monospace;font-size:2.3cqw;font-weight:400}
+.s-structural h4{font-size:8.4cqw;letter-spacing:-.04em;font-weight:800}
+
+.s-liquid{background:radial-gradient(circle at 18% 28%,#FF8A5B 0 14%,transparent 42%),radial-gradient(circle at 82% 18%,#5B8CFF 0 16%,transparent 46%),radial-gradient(circle at 62% 92%,#B15BFF 0 18%,transparent 50%),radial-gradient(circle at 30% 85%,#3DDBD0 0 8%,transparent 34%),#E9EEF7;align-items:center;gap:4cqw}
+.s-liquid .g,.s-liquid .pl{backdrop-filter:blur(3cqw) saturate(180%);-webkit-backdrop-filter:blur(3cqw) saturate(180%);background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.65);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 1px rgba(255,255,255,.35),inset 0 0 2.4cqw rgba(255,255,255,.35),0 2cqw 6cqw rgba(30,40,90,.2)}
+.s-liquid .g{border-radius:7cqw;padding:5cqw 7cqw;text-align:center;color:#141a33}
+.s-liquid h4{font-size:7.4cqw;font-weight:600}
+.s-liquid .k{font-size:2.3cqw;opacity:.7}
+.s-liquid .pl{border-radius:99cqw;padding:1.2cqw;display:flex;gap:1cqw;font-size:2.6cqw;font-weight:600;color:#141a33}
+.s-liquid .pl b{padding:1.4cqw 4cqw;border-radius:99cqw;font-weight:600}
+.s-liquid .pl b:first-child{background:rgba(255,255,255,.7);box-shadow:inset 0 1px 0 #fff,0 .6cqw 2cqw rgba(30,40,90,.18)}
+.s-glass{background:radial-gradient(circle at 20% 20%,#3B2A8C 0,transparent 45%),radial-gradient(circle at 85% 75%,#E05CFF 0,transparent 40%),radial-gradient(circle at 70% 15%,#2E7BFF 0,transparent 38%),#0B1026;color:#fff;padding:9cqw}
+.s-glass .g{width:100%;height:100%;border-radius:4cqw;background:rgba(255,255,255,.08);backdrop-filter:blur(3cqw);-webkit-backdrop-filter:blur(3cqw);border:1px solid rgba(255,255,255,.2);padding:6cqw;display:flex;flex-direction:column;justify-content:center;gap:2.2cqw;box-shadow:0 3cqw 8cqw rgba(0,0,0,.35)}
+.s-glass h4{font-size:7.4cqw;font-weight:600}
+.s-glass .bt{background:#fff;color:#0B1026;border-radius:99cqw;align-self:flex-start}
+.s-neu{background:#E6E9EF;color:#48546A;flex-direction:row;align-items:center;justify-content:space-between;gap:5cqw}
+.s-neu .t{display:flex;flex-direction:column;gap:2.4cqw}
+.s-neu h4{font-size:7cqw}
+.s-neu .bt{border-radius:3cqw;background:#E6E9EF;color:#6C8CFF;box-shadow:1.2cqw 1.2cqw 2.4cqw #c3c8d2,-1.2cqw -1.2cqw 2.4cqw #fff;align-self:flex-start}
+.s-neu .dial{width:26cqw;height:26cqw;border-radius:50%;background:#E6E9EF;box-shadow:1.6cqw 1.6cqw 3.2cqw #c3c8d2,-1.6cqw -1.6cqw 3.2cqw #fff;display:grid;place-items:center;flex:none}
+.s-neu .dial i{width:14cqw;height:14cqw;border-radius:50%;box-shadow:inset 1cqw 1cqw 2cqw #c3c8d2,inset -1cqw -1cqw 2cqw #fff;display:block}
+.s-clay{background:#E8E3FF;color:#3B2F6B;font-family:Manrope,sans-serif}
+.s-clay h4{font-weight:800;font-size:8cqw}
+.s-clay .bt{background:#8B7BFF;color:#fff;border-radius:5cqw;padding:2.6cqw 6cqw;box-shadow:0 2.5cqw 4cqw rgba(107,91,255,.4),inset 0 -1.2cqw 1.6cqw rgba(0,0,0,.2),inset 0 1.2cqw 1.6cqw rgba(255,255,255,.5)}
+.s-clay .a{right:6cqw;top:8cqw;width:22cqw;height:22cqw;border-radius:50%;background:#FF9EC7;box-shadow:0 3cqw 5cqw rgba(255,110,170,.45),inset 0 -2.4cqw 3cqw rgba(0,0,0,.16),inset 0 2.4cqw 3cqw rgba(255,255,255,.55)}
+.s-clay .b{right:20cqw;bottom:7cqw;width:16cqw;height:16cqw;border-radius:5cqw;background:#FFD66B;transform:rotate(14deg);box-shadow:0 2.4cqw 4cqw rgba(230,170,40,.45),inset 0 -1.8cqw 2.4cqw rgba(0,0,0,.14),inset 0 1.8cqw 2.4cqw rgba(255,255,255,.6)}
+.s-skeuo{background:linear-gradient(#3A3D42,#1F2124);color:#E8E8EA;flex-direction:row;align-items:center;justify-content:space-between;gap:4cqw}
+.s-skeuo .t{display:flex;flex-direction:column;gap:3cqw}
+.s-skeuo h4{font-size:6.4cqw;text-shadow:0 -1px 0 #000}
+.s-skeuo .k{color:#8A8D94;text-shadow:0 1px 0 rgba(255,255,255,.12);font-weight:700}
+.s-skeuo .sw2{display:flex;align-items:center;gap:2.4cqw;font-size:2.4cqw;font-weight:700;color:#8A8D94}
+.s-skeuo .trk{width:14cqw;height:7cqw;border-radius:99cqw;background:#111;box-shadow:inset 0 .6cqw 1.2cqw #000,0 1px 0 rgba(255,255,255,.15);position:relative}
+.s-skeuo .trk i{position:absolute;right:.6cqw;top:.6cqw;width:5.8cqw;height:5.8cqw;border-radius:50%;background:linear-gradient(#fafafa,#9a9da3);box-shadow:0 .6cqw 1cqw #000a,inset 0 1px 0 #fff}
+.s-skeuo .led{width:2.4cqw;height:2.4cqw;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffd2c2,#FF5A36 55%,#a52a10);box-shadow:0 0 2cqw #FF5A36}
+.s-skeuo .knob{width:28cqw;height:28cqw;border-radius:50%;flex:none;background:conic-gradient(from 20deg,#d9dbe0,#7c7f86,#f1f2f4,#8a8d94,#e4e6ea,#74777e,#d9dbe0);box-shadow:0 2cqw 4cqw rgba(0,0,0,.7),0 0 0 1.2cqw #17181a,0 0 0 1.5cqw #4a4d52,inset 0 .3cqw .6cqw #fff;display:grid;place-items:center}
+.s-skeuo .knob i{width:20cqw;height:20cqw;border-radius:50%;background:radial-gradient(circle at 40% 30%,#f4f5f7,#a9acb3 70%);box-shadow:inset 0 -.8cqw 1.4cqw rgba(0,0,0,.35),0 .4cqw 1cqw rgba(0,0,0,.5);position:relative;display:block}
+.s-skeuo .knob i::after{content:"";position:absolute;left:50%;top:1.6cqw;width:.9cqw;height:5cqw;margin-left:-.45cqw;border-radius:1cqw;background:#FF5A36}
+.s-aurora{background:#0D0B1E;color:#fff;align-items:center;text-align:center}
+.s-aurora .a{inset:-20%;background:radial-gradient(circle at 25% 60%,#5B3DF5 0,transparent 38%),radial-gradient(circle at 60% 35%,#22D3EE 0,transparent 32%),radial-gradient(circle at 80% 70%,#F0ABFC 0,transparent 30%),radial-gradient(circle at 45% 85%,#34D399 0,transparent 26%);filter:blur(5cqw);opacity:.85}
+.s-aurora h4{font-weight:600;font-size:8cqw}
+.s-aurora .bt{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);border-radius:99cqw;color:#fff;font-weight:600}
+.s-grain{background:radial-gradient(circle at 80% 10%,#FFB25B 0,transparent 45%),linear-gradient(135deg,#FF6A3D,#FF3D81 50%,#6A3DFF);color:#FFF4EA}
+.s-grain .a{inset:0;background:var(--noise);mix-blend-mode:soft-light;opacity:.9}
+.s-grain h4{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:9.4cqw;letter-spacing:-.03em}
+.s-grain .bt{background:#111;color:#FFF4EA;border-radius:99cqw}
+.s-chrome{background:radial-gradient(circle at 50% 120%,#2B2F36,#050505 60%);align-items:center;text-align:center;color:#ddd}
+.s-chrome h4{font-family:Unbounded,Inter,sans-serif;font-weight:900;font-size:10.5cqw;text-transform:uppercase;letter-spacing:-.04em;background:linear-gradient(180deg,#fff 0%,#9aa3ad 34%,#2b2f36 50%,#c9d1d9 56%,#f5f7fa 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.s-chrome .k{letter-spacing:.4em;color:#9AA3AD}
+.s-chrome .bt{border:1px solid #9AA3AD;border-radius:99cqw;font-weight:400;color:#F5F7FA;background:linear-gradient(#2b2f36,#0b0c0e)}
+.s-chrome .a{width:14cqw;height:14cqw;border-radius:50%;right:8cqw;top:7cqw;background:radial-gradient(circle at 35% 28%,#fff 0,#b9c0c8 22%,#3a3f46 55%,#0b0c0e 72%,#8d95a0 100%)}
+.s-chrome .b{width:8cqw;height:8cqw;border-radius:50%;left:9cqw;bottom:9cqw;background:radial-gradient(circle at 35% 28%,#fff 0,#b9c0c8 22%,#3a3f46 55%,#0b0c0e 72%,#8d95a0 100%)}
+
+.s-neobrut{background:#FFE14D;font-family:"Bricolage Grotesque",Inter,sans-serif}
+.s-neobrut h4{font-weight:800;font-size:9.6cqw;letter-spacing:-.03em}
+.s-neobrut .k{background:#111;color:#fff;padding:.6cqw 1.8cqw;font-weight:700}
+.s-neobrut .bt,.s-neobrut .lk{border:.6cqw solid #111;box-shadow:1cqw 1cqw 0 #111;border-radius:1.4cqw;background:#FF6B9D;font-weight:800;padding:1.6cqw 3.6cqw;font-size:2.9cqw}
+.s-neobrut .lk{background:#4D7CFF;color:#fff}
+.s-neobrut .a{right:7cqw;top:7cqw;width:17cqw;height:17cqw;background:#fff;border:.6cqw solid #111;box-shadow:1cqw 1cqw 0 #111;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:3.4cqw;transform:rotate(12deg)}
+.s-brutal{background:#fff;color:#000;font-family:"Times New Roman",Times,serif;gap:1.6cqw;justify-content:flex-start}
+.s-brutal h4{font-size:8cqw;letter-spacing:0;font-weight:700}
+.s-brutal p{font-size:3.4cqw;opacity:1;max-width:none}
+.s-brutal .lk{color:#0000EE;text-decoration:underline;font-size:3.4cqw}
+.s-brutal .lk.v{color:#551A8B}
+.s-brutal hr{width:100%;border:0;border-top:.3cqw solid #000;margin:.6cqw 0}
+.s-brutal .bt{font-family:Arial,sans-serif;font-weight:400;background:#EFEFEF;border:.4cqw outset #ddd;padding:.8cqw 2.4cqw;font-size:2.9cqw}
+.s-brutal ul{margin:0;padding-left:5cqw;font-size:3.4cqw}
+.s-tactile{background:#FFF3E2;color:#2A1A4A;font-family:"Bricolage Grotesque",Inter,sans-serif}
+.s-tactile h4{font-weight:800;font-size:9cqw}
+.s-tactile .bt{background:#FF5C39;color:#fff;border-radius:99cqw;padding:2.6cqw 6cqw;font-size:3.4cqw;box-shadow:0 1.6cqw 0 #C23A1E,0 3.4cqw 4cqw rgba(0,0,0,.2),inset 0 .6cqw 0 rgba(255,255,255,.35);margin-bottom:1.6cqw}
+.s-tactile .a{right:6cqw;top:6cqw;width:24cqw;height:24cqw;border-radius:6cqw;background:#6C4DFF;box-shadow:0 2cqw 0 #4327c9,0 4cqw 5cqw rgba(0,0,0,.2);transform:rotate(8deg)}
+.s-tactile .b{right:22cqw;top:20cqw;width:15cqw;height:15cqw;border-radius:50%;background:#C8F560;box-shadow:0 1.2cqw 0 #8fbf21;display:grid;place-items:center;font-weight:800;font-size:3.2cqw;transform:rotate(-12deg)}
+.s-dopamine{background:#FF3EA5;color:#fff;font-family:"Bricolage Grotesque",Inter,sans-serif}
+.s-dopamine h4{font-weight:800;font-size:10cqw;letter-spacing:-.03em}
+.s-dopamine .bt{background:#FFD23F;color:#111;border-radius:99cqw}
+.s-dopamine .a{right:-10cqw;top:-10cqw;width:44cqw;height:44cqw;border-radius:50%;background:#FF7A1A}
+.s-dopamine .b{right:0;bottom:0;width:30cqw;height:30cqw;border-radius:100% 0 0 0;background:#3B5BFF}
+.s-dopamine .c{right:30cqw;bottom:0;width:15cqw;height:15cqw;background:#00C2A8;border-radius:50% 50% 0 0}
+.s-memphis{background:#FDF3E7;font-family:"Bricolage Grotesque",Inter,sans-serif;align-items:center;text-align:center}
+.s-memphis h4{font-weight:800;font-size:9.4cqw;background:#FDF3E7;padding:0 2cqw}
+.s-memphis .bt{background:#111;color:#fff}
+.s-memphis .a{left:6cqw;top:6cqw;width:16cqw;height:16cqw;border-radius:50%;background:#00C9A7;box-shadow:1.4cqw 1.4cqw 0 #111}
+.s-memphis .b{right:8cqw;top:6cqw;width:18cqw;height:16cqw;background:#FFC75F;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.s-memphis .c{left:8cqw;bottom:6cqw;width:24cqw;height:13cqw;background:radial-gradient(#845EC2 28%,transparent 30%) 0 0/3.4cqw 3.4cqw}
+.s-memphis .d{right:6cqw;bottom:8cqw;width:26cqw;height:7cqw;background:repeating-linear-gradient(45deg,#111 0 1cqw,#FF6F91 1cqw 2.4cqw);transform:rotate(-14deg)}
+.s-memphis svg.dx{left:40cqw;top:5cqw;width:26cqw;height:7cqw}
+.s-bigtype{background:#0B0B0B;color:#F2F0E9;padding:0;gap:0;font-family:"Bebas Neue","Arial Narrow",Impact,sans-serif;justify-content:center}
+.s-bigtype .m{white-space:nowrap;font-size:27cqw;line-height:.86;display:flex;width:max-content}
+.s-bigtype .m.o{color:transparent;-webkit-text-stroke:.3cqw #D7FF3E}
+.s-bigtype .m span{padding-right:5cqw}
+.s-collage{background:#EDE6D8 var(--noise);background-blend-mode:multiply;padding:0}
+.s-collage .pp{position:absolute;display:block}
+.s-collage .n1{left:7cqw;top:8cqw;width:34cqw;height:34cqw;background:#FFE66D;transform:rotate(-5deg);box-shadow:.6cqw 1cqw 2cqw rgba(0,0,0,.2);font-family:Caveat,cursive;font-size:6.4cqw;line-height:1.05;padding:4cqw 3cqw;color:#1A1A1A}
+.s-collage .n2{right:8cqw;top:6cqw;width:36cqw;height:26cqw;background:linear-gradient(135deg,#2D7DD2,#7fb6ee);transform:rotate(4deg);border:1.4cqw solid #fff;box-shadow:.6cqw 1cqw 2cqw rgba(0,0,0,.25)}
+.s-collage .tp{width:16cqw;height:4.4cqw;background:rgba(255,94,91,.6);right:19cqw;top:3.4cqw;transform:rotate(-8deg)}
+.s-collage .rn{left:44cqw;bottom:8cqw;display:flex;gap:.8cqw;transform:rotate(-3deg)}
+.s-collage .rn b{font-size:7cqw;line-height:1;padding:1cqw 1.6cqw;background:#fff;color:#111;font-weight:800}
+.s-collage .rn b:nth-child(2){background:#111;color:#fff;font-family:"Playfair Display",serif;transform:rotate(6deg)}
+.s-collage .rn b:nth-child(3){background:#FF5E5B;font-family:"Bebas Neue",sans-serif;transform:rotate(-5deg)}
+.s-collage .rn b:nth-child(4){font-family:"Instrument Serif",serif;font-style:italic}
+.s-collage .hl{left:9cqw;bottom:9cqw;font-size:3.2cqw;font-weight:700;background:linear-gradient(transparent 45%,#FFE66D 45%);transform:rotate(2deg);padding:0 1cqw}
+.s-m3{background:#FEF7FF;color:#1D1B20;font-family:Manrope,sans-serif;flex-direction:row;align-items:center;gap:5cqw}
+.s-m3 .t{flex:1;background:#EADDFF;border-radius:7cqw;padding:6cqw;align-self:stretch;display:flex;flex-direction:column;justify-content:center;gap:2.4cqw;color:#21005D}
+.s-m3 h4{font-weight:800;font-size:7.6cqw}
+.s-m3 .seg{display:flex;gap:.8cqw}
+.s-m3 .seg b{background:#6750A4;color:#fff;font-size:2.6cqw;padding:1.6cqw 3.2cqw;border-radius:1.2cqw}
+.s-m3 .seg b:first-child{border-radius:99cqw 1.2cqw 1.2cqw 99cqw}
+.s-m3 .seg b:last-child{border-radius:1.2cqw 99cqw 99cqw 1.2cqw;background:#fff;color:#6750A4}
+.s-m3 .sh{display:grid;grid-template-columns:1fr 1fr;gap:2cqw;flex:none}
+.s-m3 .sh i{width:13cqw;height:13cqw;display:block}
+.s-m3 .sh i:nth-child(1){background:#6750A4;border-radius:50%}
+.s-m3 .sh i:nth-child(2){background:#FFD8E4;border-radius:4cqw}
+.s-m3 .sh i:nth-child(3){background:#7D5260;border-radius:60% 40% 55% 45%/45% 55% 45% 55%}
+.s-m3 .sh i:nth-child(4){background:#6750A4;border-radius:4cqw;display:grid;place-items:center;color:#fff;font-style:normal;font-size:7cqw;font-weight:400;box-shadow:0 1cqw 2cqw rgba(103,80,164,.4)}
+
+.s-y2k{background:linear-gradient(135deg,#C7B8FF,#9EE7FF 50%,#FFC4EC);align-items:center;text-align:center;color:#3A2A8C}
+.s-y2k h4{font-family:Unbounded,sans-serif;font-weight:800;font-size:9cqw;background:linear-gradient(180deg,#fff 10%,#7B6BFF 50%,#FF8AD8 90%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:.25cqw #fff;filter:drop-shadow(0 .6cqw 0 rgba(58,42,140,.35))}
+.s-y2k .k{font-weight:700}
+.s-y2k .bt{border-radius:99cqw;background:linear-gradient(#fff 0,#E5F6FF 45%,#A9DEFF 55%,#D8F1FF);border:.4cqw solid #fff;box-shadow:0 1cqw 2.4cqw rgba(58,42,140,.3),inset 0 -.6cqw 1cqw rgba(58,42,140,.15);color:#3A2A8C}
+.s-y2k .st{background:#fff;clip-path:polygon(50% 0,60% 40%,100% 50%,60% 60%,50% 100%,40% 60%,0 50%,40% 40%)}
+.s-y2k .a{left:9cqw;top:8cqw;width:11cqw;height:11cqw}
+.s-y2k .b{right:10cqw;bottom:9cqw;width:8cqw;height:8cqw}
+.s-y2k .c{right:16cqw;top:11cqw;width:5cqw;height:5cqw}
+.s-seventies{background:#F2E3C6;color:#7A3B1D}
+.s-seventies h4{font-family:Fraunces,Georgia,serif;font-weight:900;font-style:italic;font-size:10cqw;letter-spacing:-.03em}
+.s-seventies .bt{background:#C4472B;color:#F2E3C6;border-radius:99cqw}
+.s-seventies .a{right:0;bottom:0;width:46cqw;height:46cqw;background:repeating-radial-gradient(circle at 100% 100%,#C4472B 0 5cqw,#E08E2B 5cqw 10cqw,#E9B44C 10cqw 15cqw,#3F5E4A 15cqw 20cqw,#F2E3C6 20cqw 25cqw);border-radius:100% 0 0 0}
+.s-vapor{background:linear-gradient(#1A1033 0,#4A1D7A 62%,#12092b 62%);align-items:center;justify-content:center;padding:0}
+.s-vapor .sun{left:50%;top:9%;width:34cqw;height:34cqw;margin-left:-17cqw;border-radius:50%;background:linear-gradient(#FFD319,#FF2975 75%);-webkit-mask:linear-gradient(#000 52%,transparent 52% 57%,#000 57% 66%,transparent 66% 72%,#000 72% 80%,transparent 80% 87%,#000 87% 92%,transparent 92%);mask:linear-gradient(#000 52%,transparent 52% 57%,#000 57% 66%,transparent 66% 72%,#000 72% 80%,transparent 80% 87%,#000 87% 92%,transparent 92%)}
+.s-vapor .fl{left:-60%;right:-60%;top:62%;height:60%;background:repeating-linear-gradient(90deg,#FF71CE 0 .35cqw,transparent .35cqw 9cqw),repeating-linear-gradient(0deg,#FF71CE 0 .35cqw,transparent .35cqw 5cqw);transform:perspective(26cqw) rotateX(62deg);transform-origin:top}
+.s-vapor h4{font-family:Unbounded,sans-serif;font-style:italic;font-weight:800;font-size:8cqw;letter-spacing:.14em;color:#01CDFE;text-shadow:.5cqw .5cqw 0 #FF71CE;margin-top:14cqw}
+.s-pixel{background:#1D2B53;color:#FFF1E8;font-family:"Press Start 2P","Courier New",monospace;gap:3.4cqw}
+.s-pixel h4{font-size:5cqw;line-height:1.5;color:#FFEC27;font-weight:400;letter-spacing:0}
+.s-pixel p{font-size:2.2cqw;line-height:1.8;opacity:1}
+.s-pixel .bt{background:#FF004D;color:#fff;font-weight:400;font-size:2.4cqw;padding:2cqw 3cqw;margin:.8cqw;box-shadow:0 -.7cqw 0 #FFF1E8,0 .7cqw 0 #FFF1E8,-.7cqw 0 0 #FFF1E8,.7cqw 0 0 #FFF1E8}
+.s-pixel .hp{display:flex;gap:1.2cqw}
+.s-pixel .hp i{width:4cqw;height:4cqw;background:#FF004D;display:block;box-shadow:inset -.8cqw -.8cqw 0 #7E2553}
+.s-pixel .hp i:last-child{background:#5F574F;box-shadow:none}
+.s-pixel .a{right:8cqw;bottom:8cqw;width:4cqw;height:4cqw;background:#00E436;box-shadow:4cqw 0 0 #00E436,8cqw 0 0 #00E436,4cqw -4cqw 0 #00E436,0 4cqw 0 #29ADFF,8cqw 4cqw 0 #29ADFF;margin-right:8cqw;margin-bottom:4cqw}
+.s-win95{background:#008080;padding:6cqw 9cqw;font-family:Tahoma,"MS Sans Serif",Arial,sans-serif}
+.s-win95 .win{width:100%;background:#C0C0C0;border:.5cqw solid;border-color:#fff #404040 #404040 #fff;box-shadow:.3cqw .3cqw 0 #000;padding:.6cqw}
+.s-win95 .tb{background:linear-gradient(90deg,#000080,#1084D0);color:#fff;font-weight:700;font-size:2.8cqw;padding:1cqw 1.6cqw;display:flex;align-items:center}
+.s-win95 .tb span{margin-left:auto;display:flex;gap:.6cqw}
+.s-win95 .tb i{width:3.6cqw;height:3.2cqw;background:#C0C0C0;border:.3cqw solid;border-color:#fff #404040 #404040 #fff;display:block}
+.s-win95 .bd{padding:4cqw;font-size:3cqw;display:flex;flex-direction:column;gap:3cqw}
+.s-win95 .bd b{font-size:4.2cqw}
+.s-win95 .rw{display:flex;gap:2cqw;justify-content:flex-end}
+.s-win95 .bt{background:#C0C0C0;border:.4cqw solid;border-color:#fff #404040 #404040 #fff;font-weight:400;padding:1cqw 5cqw;font-size:2.8cqw;box-shadow:.2cqw .2cqw 0 #000}
+.s-deco{background:#0E1A2B;color:#C9A45C;align-items:center;text-align:center;gap:2.6cqw}
+.s-deco .a{inset:0;background:repeating-conic-gradient(from -90deg at 50% 118%,rgba(201,164,92,.34) 0 .6deg,transparent .6deg 6deg)}
+.s-deco .b{inset:3.5cqw;border:.3cqw solid #C9A45C;outline:.2cqw solid #C9A45C;outline-offset:1cqw}
+.s-deco h4{font-family:"Playfair Display",Georgia,serif;font-size:7.4cqw;text-transform:uppercase;letter-spacing:.14em;color:#F1E3BF;font-weight:700}
+.s-deco .k{letter-spacing:.5em}
+.s-deco .bt{border:.3cqw solid #C9A45C;color:#C9A45C;letter-spacing:.3em;text-transform:uppercase;font-size:2.2cqw;font-weight:400;background:#0E1A2B}
+.s-bauhaus{background:#F3EBDD;justify-content:flex-end}
+.s-bauhaus h4{font-weight:800;font-size:11cqw;letter-spacing:-.05em;text-transform:lowercase}
+.s-bauhaus .k{font-weight:700}
+.s-bauhaus .a{right:9cqw;top:7cqw;width:26cqw;height:26cqw;border-radius:50%;background:#D62828}
+.s-bauhaus .b{right:27cqw;top:20cqw;width:20cqw;height:20cqw;background:#1D4E89;mix-blend-mode:multiply}
+.s-bauhaus .c{right:6cqw;top:30cqw;width:22cqw;height:19cqw;background:#F2B705;clip-path:polygon(50% 0,100% 100%,0 100%)}
+.s-bauhaus .d{left:7cqw;top:9cqw;width:30cqw;height:2cqw;background:#111}
+.s-riso{background:#F7F2E7 var(--noise);background-blend-mode:multiply;font-family:"Bricolage Grotesque",Inter,sans-serif}
+.s-riso h4{font-weight:800;font-size:10cqw;color:#0078BF;text-shadow:.7cqw .7cqw 0 rgba(255,72,176,.85);letter-spacing:-.03em}
+.s-riso .k{color:#1A1A1A;font-weight:700}
+.s-riso .bt{background:#FFE800;color:#1A1A1A;border:.4cqw solid #1A1A1A}
+.s-riso .a{right:5cqw;top:5cqw;width:32cqw;height:32cqw;border-radius:50%;background:#FF48B0;mix-blend-mode:multiply}
+.s-riso .b{right:21cqw;top:18cqw;width:32cqw;height:32cqw;border-radius:50%;background:radial-gradient(#0078BF 42%,transparent 44%) 0 0/2.2cqw 2.2cqw;mix-blend-mode:multiply}
+.s-news{background:#F2EEE3;color:#1A1A1A;font-family:"Noto Serif TC",Georgia,serif;gap:1.6cqw;padding:5cqw 6cqw;justify-content:flex-start}
+.s-news .mh2{width:100%;text-align:center;font-family:"Playfair Display",Georgia,serif;font-weight:900;font-size:8cqw;line-height:1;letter-spacing:-.02em}
+.s-news .dl{width:100%;border-top:.5cqw double #1A1A1A;border-bottom:1px solid #1A1A1A;padding:.8cqw 0;display:flex;justify-content:space-between;font-size:2.1cqw;letter-spacing:.1em;text-transform:uppercase;font-family:Inter,sans-serif}
+.s-news .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:3cqw;width:100%}
+.s-news .cols div{font-size:2.2cqw;line-height:1.55;text-align:justify}
+.s-news .cols div+div{border-left:1px solid #b9b2a2;padding-left:3cqw}
+.s-news .cols b{display:block;font-family:"Playfair Display",Georgia,serif;font-size:4.6cqw;line-height:1.08;text-align:left;margin-bottom:1.2cqw}
+.s-news .cols div+div b{font-size:3cqw}
+
+.s-cyber{background:#0A0A12 linear-gradient(rgba(0,240,255,.07) 1px,transparent 1px) 0 0/100% 4cqw;color:#00F0FF;font-family:Orbitron,Inter,sans-serif}
+.s-cyber::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.16) 0 1px,transparent 1px 4px);pointer-events:none;z-index:2}
+.s-cyber h4{font-weight:800;text-transform:uppercase;font-size:8.6cqw;letter-spacing:.02em;text-shadow:0 0 2.4cqw rgba(0,240,255,.8),-.4cqw 0 0 rgba(255,43,214,.7)}
+.s-cyber .k{background:#FCEE0A;color:#0A0A12;font-weight:800;padding:.5cqw 2cqw;clip-path:polygon(0 0,100% 0,calc(100% - 1.4cqw) 100%,0 100%)}
+.s-cyber p{color:#9fdfe6;font-family:"IBM Plex Mono",monospace;font-size:2.6cqw}
+.s-cyber .bt{background:#FF2BD6;color:#0A0A12;clip-path:polygon(2cqw 0,100% 0,100% calc(100% - 2cqw),calc(100% - 2cqw) 100%,0 100%,0 2cqw);box-shadow:0 0 3cqw #FF2BD6;text-transform:uppercase;letter-spacing:.1em}
+.s-cyber .lk{color:#00F0FF;font-size:2.4cqw;letter-spacing:.1em}
+.s-darksaas{background:radial-gradient(ellipse 70% 60% at 50% -12%,rgba(94,106,210,.55),transparent 70%),#08090A;color:#F7F8F8;align-items:center;text-align:center;gap:2.6cqw;padding-bottom:14cqw}
+.s-darksaas .k{border:1px solid rgba(255,255,255,.14);border-radius:99cqw;padding:.8cqw 2.6cqw;text-transform:none;letter-spacing:0;color:#b9bdc6;background:rgba(255,255,255,.04)}
+.s-darksaas h4{font-weight:600;font-size:7.6cqw;letter-spacing:-.035em;line-height:1.05;background:linear-gradient(180deg,#fff 30%,#8A8F98);-webkit-background-clip:text;background-clip:text;color:transparent}
+.s-darksaas p{color:#8A8F98;opacity:1;max-width:56cqw}
+.s-darksaas .bt{background:#F7F8F8;color:#08090A;border-radius:1.6cqw;font-weight:600}
+.s-darksaas .lk{color:#8A8F98}
+.s-darksaas .a{left:12cqw;right:12cqw;bottom:-1px;height:8cqw;border:1px solid rgba(255,255,255,.1);border-bottom:0;border-radius:2.4cqw 2.4cqw 0 0;background:linear-gradient(rgba(255,255,255,.05),transparent)}
+.s-terminal{background:#0C0C0C;color:#33FF66;font-family:"IBM Plex Mono",ui-monospace,monospace;padding:0;justify-content:flex-start;gap:0}
+.s-terminal .tb{width:100%;background:#1E1E1E;padding:1.8cqw 3cqw;display:flex;gap:1.2cqw;align-items:center;color:#777;font-size:2.3cqw}
+.s-terminal .tb i{width:2.2cqw;height:2.2cqw;border-radius:50%;background:#444;display:block}
+.s-terminal .tb span{margin-left:2cqw}
+.s-terminal pre{margin:0;padding:4cqw 5cqw;font:inherit;font-size:3cqw;line-height:1.75;text-shadow:0 0 1.4cqw rgba(51,255,102,.45);white-space:pre-wrap}
+.s-terminal pre b{color:#FFB000;font-weight:400}
+.s-terminal pre u{color:#C8C8C8;text-decoration:none}
+.s-terminal .cur{display:inline-block;width:1.8cqw;height:3.4cqw;background:#33FF66;vertical-align:-.5cqw}
+.s-blueprint{background:#164B9C linear-gradient(rgba(255,255,255,.14) 1px,transparent 1px) 0 0/100% 4cqw;color:#fff;font-family:"IBM Plex Mono",monospace;justify-content:flex-end;padding:5cqw}
+.s-blueprint::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.14) 1px,transparent 1px) 0 0/4cqw 100%}
+.s-blueprint .a{left:9cqw;top:9cqw;width:46cqw;height:26cqw;border:.35cqw solid #fff}
+.s-blueprint .a::before{content:"1200";position:absolute;left:0;right:0;top:-5cqw;border-bottom:1px solid #A9C6F5;font-size:2.2cqw;text-align:center;color:#A9C6F5;line-height:1.7}
+.s-blueprint .a::after{content:"";position:absolute;left:50%;top:50%;width:14cqw;height:14cqw;margin:-7cqw;border:1px dashed #fff;border-radius:50%}
+.s-blueprint .b{right:5cqw;bottom:5cqw;border:1px solid #fff;font-size:2cqw;display:grid;grid-template-columns:auto auto;background:#164B9C}
+.s-blueprint .b span{padding:.8cqw 1.8cqw;border:1px solid rgba(255,255,255,.6)}
+.s-blueprint h4{font-size:4.4cqw;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.s-blueprint .k{color:#A9C6F5}
+.s-hud{background:radial-gradient(circle at 72% 50%,#0E2A30,#071216 60%);color:#00E5C7;font-family:"IBM Plex Mono",monospace;gap:1.8cqw}
+.s-hud h4{font-family:Orbitron,Inter,sans-serif;font-size:6cqw;font-weight:700;letter-spacing:.08em;color:#7FF5E6}
+.s-hud .k{color:#FF6B3D}
+.s-hud .rd{display:grid;grid-template-columns:auto 20cqw auto;gap:1cqw 2cqw;font-size:2.3cqw;align-items:center}
+.s-hud .rd i{height:1cqw;background:rgba(0,229,199,.18);display:block;position:relative}
+.s-hud .rd i::after{content:"";position:absolute;inset:0;width:var(--w);background:#00E5C7}
+.s-hud .rg{right:8cqw;top:50%;width:34cqw;height:34cqw;margin-top:-17cqw;border-radius:50%;border:.5cqw solid #00E5C7;border-left-color:transparent;border-bottom-color:transparent}
+.s-hud .rg2{right:11cqw;top:50%;width:28cqw;height:28cqw;margin-top:-14cqw;border-radius:50%;background:repeating-conic-gradient(#00E5C7 0 1deg,transparent 1deg 10deg);-webkit-mask:radial-gradient(circle,transparent 62%,#000 63%);mask:radial-gradient(circle,transparent 62%,#000 63%);opacity:.7}
+.s-hud .rg3{right:18cqw;top:50%;width:14cqw;height:14cqw;margin-top:-7cqw;border-radius:50%;border:1px solid #7FF5E6;display:grid;place-items:center;font-size:3.4cqw;color:#7FF5E6;font-style:normal}
+.s-hud .cn{width:5cqw;height:5cqw;border:.35cqw solid #00E5C7}
+.s-hud .c1{left:3cqw;top:3cqw;border-right:0;border-bottom:0}
+.s-hud .c2{right:3cqw;bottom:3cqw;border-left:0;border-top:0}
+.s-aiglow{background:radial-gradient(circle at 50% 108%,rgba(124,92,255,.5),transparent 55%),#0B0B14;color:#fff;align-items:center;text-align:center;gap:3.4cqw}
+.s-aiglow h4{font-weight:500;font-size:6.4cqw;letter-spacing:-.03em}
+.s-aiglow .bx{width:78cqw;border-radius:4.4cqw;padding:.45cqw;background:conic-gradient(from 130deg,#7C5CFF,#22D3EE,#F472B6,#7C5CFF);box-shadow:0 0 7cqw rgba(124,92,255,.5)}
+.s-aiglow .bx div{background:#12121C;border-radius:4cqw;padding:3cqw 3cqw 3cqw 4cqw;display:flex;align-items:center;justify-content:space-between;color:#8b8ba3;font-size:3cqw;text-align:left}
+.s-aiglow .bx i{width:6cqw;height:6cqw;border-radius:50%;background:#fff;display:block;position:relative}
+.s-aiglow .bx i::after{content:"";position:absolute;left:50%;top:50%;width:2cqw;height:2cqw;margin:-.6cqw -1cqw;border-left:.5cqw solid #12121C;border-top:.5cqw solid #12121C;transform:rotate(45deg)}
+.s-aiglow .ch{display:flex;gap:1.6cqw}
+.s-aiglow .ch b{font-size:2.4cqw;font-weight:400;color:#c7c7d9;border:1px solid rgba(255,255,255,.14);border-radius:99cqw;padding:.9cqw 2.6cqw}
+.s-spatial{background:linear-gradient(#F4F6FA,#DDE3EC);color:#141A2A;align-items:center;justify-content:center;padding:0}
+.s-spatial .st{position:relative;width:70cqw;height:42cqw;transform:perspective(90cqw) rotateY(-22deg) rotateX(8deg);transform-style:preserve-3d}
+.s-spatial .pn{position:absolute;border-radius:3cqw;background:#fff;border:1px solid rgba(255,255,255,.9)}
+.s-spatial .p1{inset:0 22cqw 6cqw 0;background:#C9D3E3;opacity:.7;transform:translateZ(-12cqw)}
+.s-spatial .p2{inset:5cqw 8cqw 0 10cqw;box-shadow:0 5cqw 9cqw rgba(20,26,42,.22);padding:5cqw;display:flex;flex-direction:column;gap:2cqw;justify-content:center}
+.s-spatial .p2 h4{font-size:6.4cqw}
+.s-spatial .p2 span{font-size:2.6cqw;color:#6b7387}
+.s-spatial .p3{right:-2cqw;top:-2cqw;width:22cqw;height:17cqw;background:#3D5AFE;color:#fff;transform:translateZ(14cqw);box-shadow:0 5cqw 8cqw rgba(61,90,254,.4);display:grid;place-items:center;font-weight:700;font-size:5cqw;border:0}
+
+.s-organic{background:#F3EDE2;color:#2F3A2C}
+.s-organic h4{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:9cqw;letter-spacing:-.03em}
+.s-organic h4 em{color:#C97B4A}
+.s-organic .k{color:#5B6B4A}
+.s-organic .bt{background:#5B6B4A;color:#F3EDE2;border-radius:99cqw}
+.s-organic .a{right:-6cqw;top:-8cqw;width:44cqw;height:42cqw;background:#C9D2B5;border-radius:60% 40% 55% 45%/50% 60% 40% 50%}
+.s-organic .b{right:10cqw;bottom:-10cqw;width:28cqw;height:30cqw;background:#C97B4A;border-radius:45% 55% 40% 60%/60% 40% 60% 40%;opacity:.9}
+.s-sketch{background:#FFFDF7 linear-gradient(rgba(60,100,200,.12) 1px,transparent 1px) 0 2cqw/100% 5cqw;color:#222;font-family:Caveat,"Comic Sans MS",cursive}
+.s-sketch h4{font-size:12cqw;font-weight:700;letter-spacing:0;line-height:.95}
+.s-sketch h4 mark{background:linear-gradient(transparent 40%,#FFE66D 40% 88%,transparent 88%);color:inherit}
+.s-sketch p{font-size:4.4cqw;opacity:1}
+.s-sketch .bt{border:.5cqw solid #222;border-radius:255px 15px 225px 15px/15px 225px 15px 255px;font-size:4.2cqw;padding:1cqw 4cqw;background:#fff}
+.s-sketch svg.dx{right:12cqw;bottom:6cqw;width:30cqw;height:24cqw}
+.s-paper{background:#F6D8B8;color:#3D405B;justify-content:flex-start;padding-top:8cqw}
+.s-paper h4{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:7cqw}
+.s-paper .ly{left:-20%;width:140%;height:60%;border-radius:50%;filter:drop-shadow(0 -.8cqw 1cqw rgba(60,30,20,.3))}
+.s-paper .l1{bottom:-12%;background:#F2A65A;left:-45%}
+.s-paper .l2{bottom:-26%;background:#E07A5F;left:5%}
+.s-paper .l3{bottom:-38%;background:#B5503C;left:-30%}
+.s-paper .l4{bottom:-50%;background:#3D405B;left:-5%}
+.s-paper .sn{right:14cqw;top:9cqw;width:15cqw;height:15cqw;border-radius:50%;background:#FFF1DC;filter:drop-shadow(0 .8cqw 1cqw rgba(60,30,20,.25))}
+.s-pastel{background:#FFF4F7;color:#5B5270;font-family:Manrope,sans-serif;align-items:center;text-align:center}
+.s-pastel h4{font-weight:800;font-size:7.6cqw}
+.s-pastel .bt{background:#FFD6E4;color:#7a3554;border-radius:99cqw;box-shadow:0 1.4cqw 3cqw rgba(255,150,190,.35)}
+.s-pastel .ch{display:flex;gap:1.6cqw}
+.s-pastel .ch b{font-size:2.5cqw;font-weight:600;padding:.9cqw 2.8cqw;border-radius:99cqw}
+.s-pastel .ch b:nth-child(1){background:#D9E8FF}.s-pastel .ch b:nth-child(2){background:#DDF5E6}.s-pastel .ch b:nth-child(3){background:#FFF0C9}
+.s-pastel .a{left:-6cqw;top:-6cqw;width:26cqw;height:26cqw;border-radius:50%;background:#D9E8FF}
+.s-pastel .b{right:-5cqw;bottom:-8cqw;width:30cqw;height:30cqw;border-radius:50%;background:#DDF5E6}
+.s-pastel .c{right:10cqw;top:8cqw;width:10cqw;height:10cqw;border-radius:50%;background:#FFF0C9}
+
+.s-bento{background:#F1F2F4;padding:5cqw;display:grid;align-items:stretch;justify-content:stretch;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);gap:1.8cqw}
+.s-bento div{border-radius:3cqw;background:#fff;padding:2.6cqw;display:flex;flex-direction:column;justify-content:space-between;font-size:2.3cqw;color:#6b7280;min-width:0}
+.s-bento b{font-size:7cqw;line-height:1;color:#15171A;letter-spacing:-.04em}
+.s-bento .b1{grid-column:span 2;grid-row:span 2;background:#15171A;color:#9aa0aa}
+.s-bento .b1 b{color:#fff;font-size:11cqw}
+.s-bento .b2{grid-column:span 2;background:#3D5AFE;color:#dfe5ff}
+.s-bento .b2 b{color:#fff;font-size:4.4cqw;letter-spacing:-.02em}
+.s-bento .b4{background:#C8F560;color:#3c4a14}
+.s-bento .b5{grid-column:span 3;flex-direction:row;align-items:flex-end;justify-content:stretch;gap:1.2cqw;height:100%}
+.s-bento .b5 i{flex:1;background:#dfe3ea;border-radius:.8cqw;height:var(--h);display:block}
+.s-bento .b5 i.on{background:#3D5AFE}
+.s-split{padding:0;flex-direction:row;align-items:stretch;gap:0}
+.s-split .l{flex:1;background:#15171A;color:#fff;padding:6cqw;display:flex;flex-direction:column;justify-content:center;gap:2.4cqw}
+.s-split .l h4{font-size:7cqw}
+.s-split .l .bt{background:#fff;color:#15171A;align-self:flex-start;border-radius:99cqw}
+.s-split .rr{flex:1;background:linear-gradient(160deg,#E9D8C4,#C7A98A);position:relative}
+.s-split .rr i{position:absolute;left:18%;right:18%;top:16%;bottom:16%;border-radius:50% 50% 2cqw 2cqw;background:linear-gradient(#f6ede2,#b98f6a);display:block}
+.s-broken{background:#F4F1EC;padding:0;display:block}
+.s-broken .im{position:absolute;left:30cqw;top:7cqw;width:46cqw;height:38cqw;background:linear-gradient(135deg,#27364B,#6E8CA8)}
+.s-broken .im2{position:absolute;left:66cqw;top:30cqw;width:24cqw;height:24cqw;background:#E0603A}
+.s-broken h4{position:absolute;left:7cqw;top:22cqw;font-size:13cqw;letter-spacing:-.05em;font-weight:800;mix-blend-mode:difference;color:#F4F1EC;z-index:2}
+.s-broken .vt{position:absolute;left:7cqw;top:7cqw;writing-mode:vertical-rl;font-size:2.3cqw;letter-spacing:.3em;text-transform:uppercase}
+.s-broken .nb{position:absolute;right:7cqw;top:6cqw;font-size:2.6cqw;font-weight:700}
+.s-broken .cp{position:absolute;left:7cqw;bottom:6cqw;font-size:2.4cqw;max-width:20cqw;line-height:1.4}
+.s-scrolly{background:#FBFAF7;padding:0;flex-direction:row;align-items:stretch;gap:0}
+.s-scrolly::before{content:"";position:absolute;left:0;top:0;height:.8cqw;width:46%;background:#111;z-index:2}
+.s-scrolly .rl{width:22cqw;border-right:1px solid #ddd;padding:7cqw 0 7cqw 5cqw;display:flex;flex-direction:column;gap:3cqw;font-size:2.4cqw;color:#aaa}
+.s-scrolly .rl span{display:flex;align-items:center;gap:1.6cqw}
+.s-scrolly .rl span::before{content:"";width:1.6cqw;height:1.6cqw;border-radius:50%;border:1px solid #aaa}
+.s-scrolly .rl .on{color:#111;font-weight:700}
+.s-scrolly .rl .on::before{background:#111;border-color:#111}
+.s-scrolly .tx{flex:1;padding:0 6cqw;display:flex;flex-direction:column;justify-content:center;gap:2.4cqw}
+.s-scrolly .tx small{font-size:2.4cqw;color:#aaa}
+.s-scrolly .tx h4{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:9cqw}
+.s-scrolly .tx p{font-size:2.8cqw}
+.s-scrolly .tx .nx{font-family:"Instrument Serif",Georgia,serif;font-size:5cqw;color:#d3d0c8;line-height:1}
+.s-dense{background:#EEF0F3;padding:0;flex-direction:row;align-items:stretch;gap:0;font-size:2.1cqw;color:#3F484F}
+.s-dense .sb{width:8cqw;background:#15171A;display:flex;flex-direction:column;gap:2cqw;align-items:center;padding-top:3cqw}
+.s-dense .sb i{width:3.4cqw;height:3.4cqw;border-radius:.8cqw;background:#3a3f47;display:block}
+.s-dense .sb i:first-child{background:#fff}
+.s-dense .mn{flex:1;padding:2.4cqw;display:flex;flex-direction:column;gap:1.6cqw;min-width:0}
+.s-dense .kp{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6cqw}
+.s-dense .kp div{background:#fff;padding:1.8cqw 2.2cqw;border-radius:1cqw;display:flex;flex-direction:column}
+.s-dense .kp b{font-size:5cqw;line-height:1.1;color:#15171A;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
+.s-dense .kp em{font-style:normal;color:#1a8a4f}
+.s-dense .kp em.dn{color:#c2412f}
+.s-dense table{width:100%;border-collapse:collapse;background:#fff;border-radius:1cqw;flex:1}
+.s-dense th,.s-dense td{padding:.9cqw 2cqw;text-align:left;border-bottom:1px solid #EEF0F3;font-weight:400;white-space:nowrap}
+.s-dense th{color:#7A8288}
+.s-dense td:nth-child(3){font-variant-numeric:tabular-nums;text-align:right}
+.s-dense th:nth-child(3){text-align:right}
+.s-dense .pl{padding:.2cqw 1.6cqw;border-radius:99cqw;background:#DFF3E7;color:#1a6a3f;font-weight:600}
+.s-dense .pl.w{background:#FFF0CC;color:#8a5a00}
+.s-dense .pl.e{background:#FDE0DC;color:#a3301f}
+.s-masonry{background:#F1F2F4;padding:4cqw;flex-direction:row;align-items:flex-start;justify-content:stretch;gap:1.8cqw}
+.s-masonry section{flex:1;display:flex;flex-direction:column;gap:1.8cqw;min-width:0}
+.s-masonry div{border-radius:2cqw;background:#fff;overflow:hidden;font-size:2.1cqw;color:#6b7280}
+.s-masonry div i{display:block;height:var(--h)}
+.s-masonry div span{display:block;padding:1.4cqw 2cqw}
+
+@media (prefers-reduced-motion:no-preference){
+  .s-bigtype .m{animation:mq 14s linear infinite}
+  .s-bigtype .m.o{animation-direction:reverse}
+  .s-terminal .cur{animation:blink 1s steps(1) infinite}
+  .s-hud .rg{animation:spin 9s linear infinite}
+}
+@keyframes mq{to{transform:translateX(-50%)}}
+@keyframes blink{50%{opacity:0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="brand">HTML 風格靈感庫<small>2026</small></div>
+  <div class="tabs" role="tablist" aria-label="內容類型">
+    <button class="tab" role="tab" data-tab="styles" id="tab-styles">設計風格<span id="n-styles"></span></button>
+    <button class="tab" role="tab" data-tab="colors" id="tab-colors">色彩風格<span id="n-colors"></span></button>
+    <button class="tab" role="tab" data-tab="fonts" id="tab-fonts">字體搭配<span id="n-fonts"></span></button>
+  </div>
+  <label class="search" for="q">
+    <svg class="ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="q" type="search" placeholder="搜尋名稱或關鍵字，例如 glass" autocomplete="off">
+  </label>
+</header>
+
+<div class="work">
+  <aside class="panel side" aria-label="篩選">
+    <div class="scroll" id="side"></div>
+  </aside>
+  <main class="panel main">
+    <div class="bar">
+      <span>顯示 <strong id="cnt">0</strong> 筆｜共 <span id="tot">0</span> 筆</span>
+      <button class="btn ghost" id="clear" hidden>清除篩選</button>
+      <span class="hint" id="hint"></span>
+    </div>
+    <div class="scroll" id="scroll"><div class="grid" id="grid"></div><footer class="foot"><p>內容由 Claude 依 2026 年趨勢文章與設計通則整理（2026-11）。</p><h3>參考來源</h3><ul><li><a href="https://rar.design/posts/ui-ux-design-trends-2026" target="_blank" rel="noopener">2026 UI/UX 設計趨勢全解析（RAR 設計攻略）</a></li><li><a href="https://www.wavespace.agency/blog/ui-design-trends" target="_blank" rel="noopener">8 UI Design Trends in 2026（Wavespace）</a></li><li><a href="https://www.uxstudioteam.com/ux-blog/ui-trends-2019" target="_blank" rel="noopener">UI trends 2026（UX Studio）</a></li><li><a href="https://studiomeyer.io/en/blog/webdesign-trends-2026" target="_blank" rel="noopener">Web Design Trends 2026: 12 Developments（StudioMeyer）</a></li><li><a href="https://www.kimp.io/web-design-trends-2026/" target="_blank" rel="noopener">Web Design Trends 2026（Kimp）</a></li><li><a href="https://reallygooddesigns.com/web-design-trends-2026/" target="_blank" rel="noopener">Web Design Trends 2026（Really Good Designs）</a></li><li><a href="https://pixso.net/articles/7-ui-ux-design-trends/" target="_blank" rel="noopener">7 UI/UX Design Trends in 2026（Pixso）</a></li><li><a href="https://www.aufaitux.com/blog/web-design-trends-2026/" target="_blank" rel="noopener">Web Design Trends 2026（Aufait UX）</a></li></ul></footer></div>
+  </main>
+</div>
+
+<div class="ov" id="ov" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="mt">
+    <div class="mh"><h2 id="mt"></h2><span class="en" id="men"></span>
+      <button class="iconbtn" id="mx" aria-label="關閉"><svg class="ic" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+    </div>
+    <div class="mb" id="mb"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" hidden><svg class="ic" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span id="toastt"></span></div>
+
+<script>
+const $=(s,r=document)=>r.querySelector(s);
+const ICON_COPY='<svg class="ic" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>';
+const S=(id,k,h,p,b,l='',x='')=>`<div class="s s-${id}">${x}${k?`<span class="k">${k}</span>`:''}<h4>${h}</h4>${p?`<p>${p}</p>`:''}${b?`<div class="r"><b class="bt">${b}</b>${l?`<i class="lk">${l}</i>`:''}</div>`:''}</div>`;
+const R=(id,inner)=>`<div class="s s-${id}">${inner}</div>`;
+const D=(...c)=>c.map(x=>`<span class="dx ${x}"></span>`).join('');
+
+const CATS=[['minimal','極簡與編輯'],['material','材質與深度'],['bold','大膽表現'],['retro','復古與懷舊'],['tech','科技與未來'],['organic','自然與手感'],['layout','版面結構']];
+const USES=[['L','品牌頁／Landing'],['T','工具／儀表板'],['D','報告／文件'],['K','簡報'],['P','作品集'],['E','活動／社群']];
+const TONES=[['l','淺色'],['d','深色'],['c','高彩']];
+
+const STYLES=[
+{id:'swiss',zh:'瑞士國際主義',en:'Swiss / International Style',cat:'minimal',hot:0,tone:'l',use:'LDKP',
+ desc:'嚴謹網格、無襯線大字、靠左對齊，一點紅就夠。',
+ kw:['Swiss design','International Typographic Style','strict 12-column grid','grotesque sans-serif','flush-left alignment','generous whitespace','single red accent'],
+ css:['display:grid; 12 欄＋固定 baseline','font-weight:800; letter-spacing:-.04em','border-radius:0；不用陰影與漸層'],
+ c:['#FFFFFF','#F2F2F2','#111111','#E30613'],f:'Inter 或 Helvetica 類 grotesque，單一字族、多字重',
+ p:'版面建立在嚴謹的多欄網格上，文字一律靠左、不置中；標題用特粗無襯線體並收緊字距，內文小而清楚，留白充足。全頁只用黑、白加單一紅色強調，不用圓角、陰影與漸層。',
+ no:'置中排版、裝飾性插圖、兩種以上強調色',
+ h:S('swiss','Grid systems','Form follows grid','少即是多，秩序本身就是裝飾。','Read more','',D('a')+'<span class="dx b">01</span>')},
+{id:'editorial',zh:'雜誌編輯風',en:'Editorial / Magazine',cat:'minimal',hot:1,tone:'l',use:'LDPK',
+ desc:'襯線大標、細線分欄、大留白，像翻開一本雜誌。',
+ kw:['editorial layout','magazine style','serif display headline','hairline rules','multi-column text','drop cap','generous margins','typography-led'],
+ css:['column-count＋column-rule 分欄','大標 clamp(48px,8vw,120px) 襯線，局部斜體','1px hairline 分隔，不用卡片'],
+ c:['#F4F1EA','#E2DACB','#1A1A1A','#7A1F1F'],f:'Instrument Serif（標題）＋Inter（內文）',
+ p:'以字體排印為主角：超大襯線標題搭配局部斜體，內文分成兩到三欄並用 1px 細線分隔，頁首有期數與日期的小字列。底色用暖米白，墨黑文字，只在少數字詞用酒紅色點綴，不使用卡片與陰影。',
+ no:'圓角卡片堆疊、過多色彩、把標題縮小',
+ h:S('editorial','<span>Issue 26</span><span>Autumn</span>','The quiet <em>return</em> of print','當畫面越來越吵，安靜的排版反而最有力量。細線、欄位與留白，讓內容自己說話。')},
+{id:'japandi',zh:'侘寂日式極簡',en:'Japandi / Wabi-sabi',cat:'minimal',hot:0,tone:'l',use:'LPD',
+ desc:'低彩度、大留白、直排文字與自然材質感。',
+ kw:['Japandi','wabi-sabi','muted earth tones','vertical text','asymmetric balance','negative space','natural texture','CJK serif'],
+ css:['writing-mode:vertical-rl 直排標題','低對比色階＋1px 細線','大量 padding，元素偏向一側'],
+ c:['#EFEAE0','#D9D0C1','#8C8373','#3A3731','#A8553A'],f:'Noto Serif TC＋細字重無襯線',
+ p:'整體安靜、低彩度，以米色與灰褐色為主，只用一個陶土紅圓點作為視覺重心。標題用直排的襯線中文，版面不對稱、留白佔大部分面積，線條極細，沒有陰影。',
+ no:'高飽和色、粗框線、填滿畫面',
+ h:R('japandi',D('a','b')+'<div class="v">留白之美</div><div class="t"><span class="k">Wabi-sabi</span><p>不完美、不永恆、不完整，正是美的所在。</p></div>')},
+{id:'quietlux',zh:'靜奢極簡',en:'Quiet Luxury',cat:'minimal',hot:1,tone:'d',use:'LPEK',
+ desc:'深底、香檳金細線、寬字距小字，克制的高級感。',
+ kw:['quiet luxury','understated elegance','champagne gold hairlines','high-contrast serif','wide letter-spacing','dark ivory palette','negative space'],
+ css:['letter-spacing:.3em 的全大寫小標','1px 金色細框按鈕，不填色','標題用細字重襯線'],
+ c:['#12110F','#2A2620','#B89B6A','#E9E2D3'],f:'Cormorant Garamond（標題）＋Manrope（內文）',
+ p:'近黑的暖色背景配象牙白文字，強調色只用香檳金，而且只出現在細線、小標與按鈕外框。標題用細字重的高對比襯線體並置中，小標全大寫、字距拉寬，元素很少、留白很多。',
+ no:'亮金漸層、粗體、任何鮮豔色',
+ h:S('quietlux','Maison · 2026','Less, but <em>better</em>','','Discover','',D('a'))},
+{id:'mono',zh:'等寬字極簡',en:'Monospace Minimal',cat:'minimal',hot:1,tone:'l',use:'DTP',
+ desc:'全站等寬字、純文字結構，像一份排得很美的 README。',
+ kw:['monospace typography','text-only UI','ASCII dividers','developer aesthetic','plain 1px borders','no images','README style'],
+ css:['font-family:"IBM Plex Mono"','1px 實線框、0 圓角','用字元（──、[ ]、>）當裝飾'],
+ c:['#FAFAFA','#E5E5E5','#888888','#111111'],f:'IBM Plex Mono 單一字族',
+ p:'全頁只用一種等寬字體，靠字級、粗細與灰階建立層次。沒有圖片與圖示，用 ASCII 字元（橫線、方括號、箭頭）當分隔與按鈕，框線 1px、沒有圓角，底色近白、文字近黑。',
+ no:'彩色漸層、圓角卡片、圖示庫',
+ h:S('mono','~/notes/design.md','Plain text,<br>well set.','────────────────────────','[ Read docs ]','view source →')},
+{id:'calm',zh:'意圖式極簡',en:'Calm / Intent-driven Minimalism',cat:'minimal',hot:1,tone:'l',use:'LTD',
+ desc:'一屏一個重點、一顆主按鈕，柔和中性色降低負擔。',
+ kw:['calm design','intent-driven minimalism','clarity-first layout','single primary action','soft neutral palette','low cognitive load','roomy spacing'],
+ css:['每一屏只有一個 CTA','行寬 60–65 字元','柔和底色＋單一強調色'],
+ c:['#F4F6F3','#E3E8E2','#7C8A83','#2F6F5E','#1F2A24'],f:'Manrope 或 Inter，中等字重',
+ p:'每個區塊只講一件事、只放一顆主要按鈕。底色是帶一點綠的柔和淺灰，文字深灰綠，強調色只有一個沉穩的綠。字重中等、行距寬鬆、內文行寬控制在 60 到 65 字元，不放裝飾元素。',
+ no:'同屏多個 CTA、資訊塞滿、搶眼動畫',
+ h:S('calm','','一次只做一件事','把不需要的都拿掉，剩下的才看得清楚。','開始使用','',D('a'))},
+{id:'structural',zh:'結構線框風',en:'Structural UI / Visible Grid',cat:'minimal',hot:1,tone:'l',use:'LPD',
+ desc:'把網格線直接畫出來，格子就是介面。',
+ kw:['structural UI','visible grid lines','bordered cells','technical labels','monospace captions','index numbers','single vivid accent'],
+ css:['grid＋每格 1px 邊框','等寬小字編號 01 / 02 / 03','重點格整格填強調色'],
+ c:['#F5F5F2','#1A1A1A','#8A8A85','#FF4F00'],f:'Inter（標題）＋IBM Plex Mono（標註）',
+ p:'整頁由看得見的 1px 黑線網格切成一格一格，內容直接放在格子裡，每格左上有等寬字的小編號。底色米白、文字黑，只有一格用鮮橘色整格填滿作為重點，沒有圓角與陰影。',
+ no:'隱藏格線、圓角、多色填色',
+ h:R('structural','<div class="c a"><span class="k">00 / Home</span><h4>Grid is the interface</h4></div><div class="c"><span class="k">01</span>Index</div><div class="c"><span class="k">02</span>Work</div><div class="c"><span class="k">03</span>Lab</div><div class="c o"><span class="k">04</span>Contact →</div>')},
+
+{id:'liquid',zh:'液態玻璃',en:'Liquid Glass',cat:'material',hot:1,tone:'c',use:'LTE',
+ desc:'會折射的透明玻璃浮在內容上，邊緣帶高光。',
+ kw:['Liquid Glass','refractive translucent surfaces','specular edge highlights','backdrop blur and saturate','floating pill controls','adaptive transparency','soft depth'],
+ css:['backdrop-filter:blur(20px) saturate(180%)','inset 0 1px 0 rgba(255,255,255,.9) 邊緣高光','大圓角膠囊浮在彩色背景上'],
+ c:['#E9EEF7','#FF8A5B','#5B8CFF','#B15BFF','#FFFFFF'],f:'Inter 或系統字體，中等字重',
+ p:'背景是柔和的彩色光斑，上方浮著半透明的玻璃面板與膠囊形控制列。玻璃要有背景模糊加飽和、1px 亮邊與內側高光，看起來有厚度、會透出後方顏色。圓角很大，文字用深色並保持足夠對比。',
+ no:'玻璃上放小字或低對比文字、整頁都是玻璃',
+ h:R('liquid','<div class="g"><span class="k">iOS 26 era</span><h4>Light that bends</h4></div><div class="pl"><b>Today</b><b>Library</b><b>Search</b></div>')},
+{id:'glass',zh:'霧面玻璃擬態',en:'Glassmorphism 2.0',cat:'material',hot:1,tone:'d',use:'LT',
+ desc:'深色漸層上的霧面卡片，細亮邊加柔光暈。',
+ kw:['glassmorphism','frosted glass cards','background blur','subtle white border','gradient orbs','layered depth','dark backdrop'],
+ css:['background:rgba(255,255,255,.08)','backdrop-filter:blur(16px)','border:1px solid rgba(255,255,255,.18)'],
+ c:['#0B1026','#3B2A8C','#2E7BFF','#E05CFF','#FFFFFF'],f:'Inter，標題 600',
+ p:'深藍黑背景上有幾顆藍、紫、粉的模糊光球，內容放在半透明的霧面卡片裡。卡片用低透明度白色底、背景模糊、1px 半透明白邊與柔和陰影，文字白色，主按鈕用白底深字的膠囊。',
+ no:'淺色背景上用同一套（會看不見邊界）、卡片層層相疊',
+ h:R('glass','<div class="g"><span class="k">Frosted</span><h4>Depth without weight</h4><b class="bt">Get started</b></div>')},
+{id:'neu',zh:'新擬態',en:'Neumorphism / Soft UI',cat:'material',hot:0,tone:'l',use:'T',
+ desc:'同色底上的凸起與凹陷，靠雙向柔影塑形。',
+ kw:['neumorphism','soft UI','extruded shapes','dual soft shadows','monochrome surface','inset pressed state'],
+ css:['box-shadow:8px 8px 16px #c3c8d2,-8px -8px 16px #fff','按下狀態改用 inset','背景與元件同色'],
+ c:['#E6E9EF','#C3C8D2','#FFFFFF','#48546A','#6C8CFF'],f:'Inter 或 Manrope',
+ p:'背景與元件使用同一個淺灰藍色，元件靠右下深影、左上亮影做出凸起，按下或輸入區則用內陰影做出凹陷。圓角大、沒有邊框，只有一個藍色用在文字或圖示強調。',
+ no:'只靠陰影分辨可點元件（對比不足，需另加文字或顏色）',
+ h:R('neu','<div class="t"><span class="k">Soft UI</span><h4>Pressed,<br>not printed</h4><b class="bt">Turn on</b></div><div class="dial"><i></i></div>')},
+{id:'clay',zh:'黏土擬態',en:'Claymorphism',cat:'material',hot:1,tone:'c',use:'LE',
+ desc:'圓鼓鼓的 3D 黏土感，粉彩加內外雙重陰影。',
+ kw:['claymorphism','puffy 3D shapes','inner and outer shadows','pastel colors','extra-rounded corners','playful','soft toy feel'],
+ css:['border-radius:32px 以上','inset 0 -8px 12px rgba(0,0,0,.18), inset 0 8px 12px rgba(255,255,255,.45)','同色系的彩色外陰影'],
+ c:['#E8E3FF','#8B7BFF','#FF9EC7','#FFD66B','#3B2F6B'],f:'Manrope 800（標題）',
+ p:'元件像捏出來的黏土：圓角非常大，上緣有亮的內陰影、下緣有暗的內陰影，外面再加同色系的柔和彩色陰影。配色是粉紫、粉紅、鵝黃等粉彩，可以放幾個漂浮的球體與圓角方塊當裝飾。',
+ no:'細線框、尖角、過多元件同時鼓起',
+ h:S('clay','Clay','Soft, round,<br>friendly','','Play now','',D('a','b'))},
+{id:'skeuo',zh:'新擬物',en:'Skeuomorphic Revival',cat:'material',hot:1,tone:'d',use:'TE',
+ desc:'旋鈕、撥桿、金屬與燈號，像摸得到的實體面板。',
+ kw:['skeuomorphic revival','realistic materials','brushed metal','physical knobs and switches','embossed labels','LED indicators','tactile depth'],
+ css:['conic-gradient 做金屬拉絲','多層 box-shadow＋inset 做厚度','text-shadow 做刻字效果'],
+ c:['#1F2124','#3A3D42','#8A8D94','#D9DBE0','#FF5A36'],f:'Inter 700，小字全大寫',
+ p:'介面像一台實體器材的面板：深灰霧面底、金屬拉絲旋鈕、凹槽裡的撥動開關與發光的 LED 指示燈。用多層陰影與高光做出真實厚度，標籤文字像刻在面板上，強調色只用一個橘紅。',
+ no:'扁平圖示混用、陰影方向不一致',
+ h:R('skeuo','<div class="t"><span class="k">Volume</span><h4>Feels real</h4><div class="sw2"><span class="led"></span>POWER<span class="trk"><i></i></span></div></div><div class="knob"><i></i></div>')},
+{id:'aurora',zh:'極光漸層',en:'Aurora / Mesh Gradient',cat:'material',hot:1,tone:'d',use:'LKE',
+ desc:'深底上流動的多色光暈，柔焦、安靜、有科技感。',
+ kw:['aurora gradient','mesh gradient','blurred color blobs','soft glow','dark background','ambient atmosphere'],
+ css:['多個 radial-gradient 疊加','filter:blur(60px)','緩慢位移動畫（尊重 reduced-motion）'],
+ c:['#0D0B1E','#5B3DF5','#22D3EE','#34D399','#F0ABFC'],f:'Inter 600，置中',
+ p:'深紫黑背景上有紫、青、綠、粉幾團高度模糊的光暈互相融合，像極光。內容置中、文字白色，按鈕是半透明白色膠囊。光暈可以非常緩慢地飄移，但文字區要保持足夠暗以維持可讀性。',
+ no:'光暈放在文字正後方、飽和度全開',
+ h:S('aurora','','Northern lights','一片安靜流動的光。','Explore','',D('a'))},
+{id:'grain',zh:'顆粒漸層',en:'Grainy Gradient',cat:'material',hot:1,tone:'c',use:'LEK',
+ desc:'飽和漸層加上底片顆粒，數位裡帶一點類比溫度。',
+ kw:['grainy gradient','noise texture','film grain overlay','vivid warm gradient','analog feel','soft blur'],
+ css:['SVG feTurbulence 雜訊當背景圖','mix-blend-mode:soft-light','大面積 linear / radial 漸層'],
+ c:['#FF6A3D','#FF3D81','#6A3DFF','#111111','#FFF4EA'],f:'Fraunces（標題）＋Inter',
+ p:'整面用橘、桃紅到紫的飽和漸層當背景，上面疊一層細緻的底片顆粒雜訊，讓漸層看起來像印刷品。標題用柔和的襯線體、米白色，按鈕用黑色膠囊形成對比。',
+ no:'顆粒太粗蓋過文字、漸層色超過三個',
+ h:S('grain','Analog warmth','Soft noise, loud color','','Listen','',D('a'))},
+{id:'chrome',zh:'液態金屬',en:'Liquid Chrome',cat:'material',hot:1,tone:'d',use:'LEP',
+ desc:'黑底上的鏡面金屬字與鉻球，冷冽未來感。',
+ kw:['liquid chrome','metallic gradient text','reflective surfaces','Y2K futurism','black background','high-gloss'],
+ css:['background-clip:text＋多段灰階漸層','radial-gradient 做金屬球','細亮邊膠囊按鈕'],
+ c:['#050505','#2B2F36','#9AA3AD','#F5F7FA'],f:'Unbounded 900 全大寫',
+ p:'純黑背景，主標題用特粗全大寫字體並填入多段灰階漸層，做出鏡面鉻金屬的反光感。旁邊點綴幾顆金屬球，按鈕是細亮邊的深色膠囊。整體只有黑、灰、銀，不加其他顏色。',
+ no:'金屬效果用在內文小字、加入彩色',
+ h:S('chrome','Future · metal','Chrome','','Enter','',D('a','b'))},
+
+{id:'neobrut',zh:'新粗野主義',en:'Neo-brutalism',cat:'bold',hot:1,tone:'c',use:'LEPT',
+ desc:'粗黑框、硬陰影、高彩色塊，直接又有個性。',
+ kw:['neo-brutalism','thick black borders','hard offset shadows','flat saturated colors','chunky sans-serif','sticker badges','no gradients'],
+ css:['border:3px solid #111','box-shadow:4px 4px 0 #111（不模糊）','hover 時 translate(2px,2px) 並縮短陰影'],
+ c:['#FFE14D','#FF6B9D','#4D7CFF','#FFFFFF','#111111'],f:'Bricolage Grotesque 800＋Inter',
+ p:'所有元件都有 3px 黑色粗框與不模糊的黑色位移陰影，顏色是平塗的亮黃、粉紅、藍與白，不用漸層。標題用特粗的無襯線體，可以加上旋轉的圓形貼紙徽章，按鈕按下時往右下位移。',
+ no:'柔和陰影、漸層、細字重',
+ h:S('neobrut','New drop','Loud &amp; proud','','Shop now','Learn',D()+'<span class="dx a">50%<br>OFF</span>')},
+{id:'brutal',zh:'原始粗野主義',en:'Brutalist Web',cat:'bold',hot:0,tone:'l',use:'PD',
+ desc:'幾乎不加樣式的原生網頁：預設字、藍連結、黑線。',
+ kw:['brutalist web design','raw HTML','default browser styles','Times New Roman','blue underlined links','no decoration','visible structure'],
+ css:['font-family:Times, serif','a{color:#00E;text-decoration:underline}','用 hr、清單與表格邊框分隔'],
+ c:['#FFFFFF','#000000','#0000EE','#551A8B'],f:'Times New Roman＋瀏覽器預設',
+ p:'刻意保留瀏覽器的原生樣貌：白底、黑字、Times New Roman、藍色底線連結與紫色已訪問連結，按鈕就是系統預設按鈕。結構用水平線、清單與表格邊框呈現，不加任何裝飾與動畫。',
+ no:'圓角、陰影、品牌色',
+ h:R('brutal','<h4>A Web Page.</h4><hr><p>No tricks. Just content and <i class="lk">hyperlinks</i>.</p><ul><li><i class="lk">Work</i></li><li><i class="lk v">Writing</i></li></ul><b class="bt">Submit</b>')},
+{id:'tactile',zh:'觸感極繁',en:'Tactile Maximalism',cat:'bold',hot:1,tone:'c',use:'LE',
+ desc:'厚、軟、可以捏的元件，配上貼紙與飽滿色塊。',
+ kw:['tactile maximalism','squishy 3D buttons','thick layered depth','sticker elements','bold saturated palette','playful chunky type','press-down interaction'],
+ css:['box-shadow:0 8px 0 深一階色（實體厚度）',':active 時 translateY(6px)','旋轉的貼紙徽章與厚色塊'],
+ c:['#FFF3E2','#FF5C39','#6C4DFF','#C8F560','#2A1A4A'],f:'Bricolage Grotesque 800',
+ p:'按鈕與卡片都有明顯的實體厚度：下方有一層深一階的實色邊當作側面，按下時整顆往下沉。配色飽滿（橘紅、紫、萊姆綠配奶油底），加上旋轉的貼紙與厚實的大字，每個元件都像可以按、可以捏。',
+ no:'扁平細線元件混用、厚度方向不一',
+ h:S('tactile','','Press me,<br>squish me','','Push it','',D('a')+'<span class="dx b">NEW</span>')},
+{id:'dopamine',zh:'多巴胺高彩',en:'Dopamine Color',cat:'bold',hot:1,tone:'c',use:'ELK',
+ desc:'高飽和撞色大色塊，一眼就開心。',
+ kw:['dopamine colors','color blocking','high saturation','clashing brights','big rounded shapes','joyful','bold flat design'],
+ css:['整區塊純色背景互撞','超大圓與四分之一圓幾何','膠囊按鈕、平塗無陰影'],
+ c:['#FF3EA5','#FF7A1A','#FFD23F','#00C2A8','#3B5BFF'],f:'Bricolage Grotesque 800',
+ p:'用桃紅、橘、黃、青綠、寶藍這些高飽和色做大面積色塊互撞，搭配超大的圓形與四分之一圓。標題特粗、白色或黑色，按鈕是對比色的膠囊，全部平塗、不用漸層與陰影。',
+ no:'同時用灰階降低飽和、小面積零碎用色',
+ h:S('dopamine','','Feel-good color','','Yes please','',D('a','b','c'))},
+{id:'memphis',zh:'孟菲斯',en:'Memphis',cat:'bold',hot:0,tone:'c',use:'EK',
+ desc:'80 年代幾何、波浪線與圓點，俏皮又熱鬧。',
+ kw:['Memphis design','80s geometric shapes','squiggles and dots','pastel with black','playful patterns','postmodern'],
+ css:['clip-path 三角形','radial-gradient 圓點圖樣','repeating-linear-gradient 斜紋'],
+ c:['#FDF3E7','#FF6F91','#FFC75F','#00C9A7','#845EC2','#111111'],f:'Bricolage Grotesque 800',
+ p:'奶油色底上散落著圓形、三角形、波浪線、圓點與斜紋等幾何圖形，顏色是粉紅、黃、青綠、紫配黑色。圖形帶黑色硬陰影，排列隨性不對齊，標題粗體置中。',
+ no:'圖形蓋住文字、配色超過五個',
+ h:S('memphis','','Memphis','','Party on','',D('a','b','c','d')+'<svg class="dx" viewBox="0 0 130 34" fill="none" stroke="#FF6F91" stroke-width="6" stroke-linecap="round"><path d="M4 22c10-22 20-22 30 0s20 22 30 0 20-22 30 0 20 22 30 0"/></svg>')},
+{id:'bigtype',zh:'巨型字體排印',en:'Oversized / Kinetic Type',cat:'bold',hot:1,tone:'d',use:'LPE',
+ desc:'字就是畫面：超大字級、溢出邊界、跑馬燈。',
+ kw:['oversized typography','kinetic type','marquee text','type as hero','outlined letters','high contrast','condensed display font'],
+ css:['font-size:20vw; line-height:.85','-webkit-text-stroke 外框字','translateX 無限跑馬燈（尊重 reduced-motion）'],
+ c:['#0B0B0B','#F2F0E9','#D7FF3E'],f:'Bebas Neue 或 Unbounded',
+ p:'不放圖片，直接用佔滿畫面寬度的超大標題當主視覺。字體用窄體全大寫，一行實心、一行只有外框線，並做成水平跑馬燈往相反方向移動。底色近黑、文字米白，只用一個螢光黃綠當強調。',
+ no:'大字和大圖同時搶戲、動畫不可關',
+ h:R('bigtype','<div class="m"><span>MAKE IT LOUD —</span><span>MAKE IT LOUD —</span></div><div class="m o"><span>TYPE IS THE IMAGE ·</span><span>TYPE IS THE IMAGE ·</span></div>')},
+{id:'collage',zh:'拼貼反設計',en:'Scrapbook Collage / Anti-design',cat:'bold',hot:1,tone:'c',use:'EPK',
+ desc:'撕紙、膠帶、便利貼與混搭字體，手作小誌感。',
+ kw:['scrapbook collage','anti-design','torn paper','tape and sticky notes','ransom-note lettering','mixed typefaces','handmade zine'],
+ css:['元素各自 rotate(-5deg ~ 5deg)','半透明色塊當膠帶','linear-gradient 做螢光筆底線'],
+ c:['#EDE6D8','#FFE66D','#FF5E5B','#2D7DD2','#1A1A1A'],f:'Caveat＋Playfair Display＋Bebas Neue 混搭',
+ p:'畫面像一頁手作剪貼簿：紙紋底色上貼著歪斜的便利貼、白邊照片與半透明膠帶，標題每個字用不同字體與底色像剪報字。加上手寫字與螢光筆底線，元素互相重疊、角度不一。',
+ no:'所有東西都對齊、只用單一字體',
+ h:R('collage','<span class="pp n2"></span><span class="pp tp"></span><span class="pp n1">don’t be<br>too neat!</span><span class="pp rn"><b>C</b><b>U</b><b>T</b><b>!</b></span><span class="pp hl">paste it anywhere</span>')},
+{id:'m3',zh:'Material 3 Expressive',en:'Material 3 Expressive',cat:'bold',hot:1,tone:'l',use:'TL',
+ desc:'圓潤多變的形狀、色調層級與有彈性的動態。',
+ kw:['Material 3 Expressive','tonal color palette','shape morphing','pill and blob shapes','springy motion','large emphasized type','button groups'],
+ css:['色調容器：primary-container／on-primary-container','形狀混用：膠囊、圓、不規則圓角','彈性緩動 cubic-bezier(.34,1.56,.64,1)'],
+ c:['#FEF7FF','#EADDFF','#6750A4','#FFD8E4','#1D1B20'],f:'Manrope 或 Roboto Flex，標題加粗',
+ p:'採用同一色相的色調階層：淺紫底、較深的紫色容器與實心主色按鈕。形狀刻意混用膠囊、正圓與不規則圓角，按鈕群組的頭尾是膠囊、中間是小圓角，互動時帶一點彈性回彈。',
+ no:'所有元件同一種圓角、色調之外另加雜色',
+ h:R('m3','<div class="t"><span class="k">Expressive</span><h4>Shapes that move</h4><div class="seg"><b>Day</b><b>Week</b><b>Month</b></div></div><div class="sh"><i></i><i></i><i></i><i>+</i></div>')},
+
+{id:'y2k',zh:'Y2K 千禧',en:'Y2K',cat:'retro',hot:1,tone:'c',use:'EK',
+ desc:'全息漸層、亮面泡泡與星星，千禧年的樂觀未來。',
+ kw:['Y2K aesthetic','iridescent gradients','glossy bubble buttons','sparkle stars','chrome accents','pastel holographic','futuristic optimism'],
+ css:['多色 linear-gradient 全息底','亮面按鈕：上亮下暗漸層＋白邊','clip-path 四角星'],
+ c:['#C7B8FF','#9EE7FF','#FFC4EC','#FFFFFF','#3A2A8C'],f:'Unbounded 800',
+ p:'背景是淡紫、天藍、粉紅的全息漸層，標題用圓胖粗體並填入漸層、加白色外框。按鈕像果凍一樣有亮面反光與白邊，四周點綴白色四角星星，整體明亮、夢幻、帶一點塑膠光澤。',
+ no:'深色背景、霧面質感',
+ h:S('y2k','★ millennium ★','Cyber baby','','Click here','',D('st a','st b','st c'))},
+{id:'seventies',zh:'70 年代復古',en:'Retro 70s',cat:'retro',hot:1,tone:'c',use:'ELK',
+ desc:'暖橘咖啡色、同心圓弧與圓潤襯線字。',
+ kw:['70s retro','warm earthy palette','concentric arcs and stripes','groovy rounded serif','sunburst','vintage poster'],
+ css:['repeating-radial-gradient 同心弧','Fraunces 粗斜體','平塗、無陰影'],
+ c:['#F2E3C6','#E9B44C','#E08E2B','#C4472B','#7A3B1D','#3F5E4A'],f:'Fraunces 900 斜體',
+ p:'奶油色底配芥末黃、橘、磚紅、咖啡與墨綠，角落有多層同心圓弧條紋。標題用圓潤的粗斜體襯線字，按鈕是磚紅膠囊，全部平塗、沒有陰影，像一張 70 年代的海報。',
+ no:'冷色調、霓虹、細字重',
+ h:S('seventies','Est. 1974','Good<br>vibes only','','Tune in','',D('a'))},
+{id:'vapor',zh:'蒸氣波',en:'Vaporwave / Synthwave',cat:'retro',hot:0,tone:'d',use:'E',
+ desc:'粉紫落日、透視網格與霓虹字，80 年代的夢。',
+ kw:['vaporwave','synthwave','retro sunset','perspective grid floor','neon pink and cyan','80s nostalgia'],
+ css:['rotateX 透視網格地面','條紋太陽：漸層＋mask','雙色 text-shadow'],
+ c:['#1A1033','#B967FF','#FF71CE','#01CDFE','#FFD319'],f:'Unbounded 斜體、寬字距',
+ p:'深紫夜空下有一顆黃到桃紅漸層、下半部被橫條切開的太陽，地面是往遠方延伸的桃紅色透視網格。標題用青色斜體大寫字並加桃紅位移陰影，字距拉寬。',
+ no:'淺色背景、寫實照片',
+ h:R('vapor',D('sun','fl')+'<h4>AESTHETIC</h4>')},
+{id:'pixel',zh:'像素 8-bit',en:'Pixel / 8-bit',cat:'retro',hot:0,tone:'d',use:'EP',
+ desc:'點陣字、方塊邊框與有限色盤的遊戲機畫面。',
+ kw:['pixel art UI','8-bit','retro game','bitmap font','limited color palette','blocky borders','no anti-aliasing'],
+ css:['font-family:"Press Start 2P"','box-shadow 四向位移做像素框','steps() 逐格動畫'],
+ c:['#1D2B53','#FF004D','#FFEC27','#29ADFF','#00E436','#FFF1E8'],f:'Press Start 2P',
+ p:'整頁像 8-bit 遊戲畫面：深藍底、點陣字體、顏色限制在紅、黃、藍、綠與米白幾個色。按鈕與面板的邊框用方塊組成，沒有圓角與漸層，可以加生命值方塊與閃爍的 PRESS START。',
+ no:'平滑圓角、漸層、一般字體',
+ h:R('pixel','<span class="hp"><i></i><i></i><i></i></span><h4>NEW GAME</h4><p>INSERT COIN TO CONTINUE</p><b class="bt">PRESS START</b>'+D('a'))},
+{id:'win95',zh:'復古作業系統',en:'Retro OS / 90s Desktop',cat:'retro',hot:0,tone:'c',use:'PE',
+ desc:'灰色斜角視窗、標題列與方按鈕，懷舊桌面。',
+ kw:['retro OS UI','90s desktop','beveled gray windows','title bar','system dialog','pixel-perfect borders','nostalgic'],
+ css:['border-color:#fff #404040 #404040 #fff 做斜角','標題列深藍漸層','系統字體、小字級'],
+ c:['#008080','#C0C0C0','#000080','#FFFFFF','#000000'],f:'Tahoma / MS Sans Serif 類系統字',
+ p:'青綠色桌面上放著灰色的對話視窗，視窗與按鈕都有左上亮、右下暗的立體斜角邊框，標題列是深藍漸層配白色粗體字與方形控制鈕。字體用系統無襯線、字級偏小，沒有圓角。',
+ no:'圓角、柔和陰影、現代字體',
+ h:R('win95','<div class="win"><div class="tb">Inspiration.exe<span><i></i><i></i><i></i></span></div><div class="bd"><b>Save changes?</b>Your ideas will be kept on this page.<div class="rw"><b class="bt">Yes</b><b class="bt">No</b></div></div></div>')},
+{id:'deco',zh:'裝飾藝術',en:'Art Deco',cat:'retro',hot:0,tone:'d',use:'ELK',
+ desc:'金線、放射紋與對稱構圖，1920 年代的華麗。',
+ kw:['Art Deco','gold on navy','sunburst and fan motifs','symmetry','geometric ornaments','uppercase serif','double-line frames'],
+ css:['repeating-conic-gradient 放射線','border＋outline-offset 做雙線框','全大寫＋寬字距'],
+ c:['#0E1A2B','#16263D','#C9A45C','#F1E3BF'],f:'Playfair Display 700 全大寫',
+ p:'深海軍藍底配金色線條，背景有從下方中心散開的細放射線，外圍是雙線金框。構圖完全對稱置中，標題用全大寫襯線體並拉寬字距，按鈕是金色細框。',
+ no:'不對稱版面、圓潤可愛的形狀',
+ h:S('deco','◆ 1925 ◆','Grand Soirée','','Reserve','',D('a','b'))},
+{id:'bauhaus',zh:'包浩斯',en:'Bauhaus',cat:'retro',hot:0,tone:'c',use:'EKP',
+ desc:'圓、方、三角與紅黃藍，形隨機能。',
+ kw:['Bauhaus','primary colors','basic geometric shapes','form follows function','lowercase sans-serif','flat composition'],
+ css:['純 CSS 幾何：圓、方、clip-path 三角','平塗紅、黃、藍、黑','小寫幾何無襯線'],
+ c:['#F3EBDD','#D62828','#1D4E89','#F2B705','#111111'],f:'幾何無襯線，小寫粗體',
+ p:'米色底上用紅色圓形、藍色方形、黃色三角形與黑色橫條組成構圖，圖形可以部分重疊。文字用小寫的粗幾何無襯線體、靠左下，全部平塗，沒有漸層與陰影。',
+ no:'裝飾花紋、柔和粉彩',
+ h:S('bauhaus','weimar 1919','bauhaus','','','',D('a','b','c','d'))},
+{id:'riso',zh:'孔版印刷',en:'Risograph',cat:'retro',hot:1,tone:'c',use:'EPK',
+ desc:'兩三個螢光專色疊印、網點與輕微錯位。',
+ kw:['risograph print','two-color overprint','halftone dots','misregistration','fluorescent pink and blue','paper grain','zine'],
+ css:['mix-blend-mode:multiply 疊印','radial-gradient 網點','雜訊紙紋 overlay'],
+ c:['#F7F2E7','#FF48B0','#0078BF','#FFE800','#1A1A1A'],f:'Bricolage Grotesque 800',
+ p:'模擬孔版印刷：米色紙紋底，只用螢光粉紅、藍與黃三個專色，色塊重疊處用正片疊底混出第三色。圖形帶網點，標題的藍字後面有一層輕微錯位的粉紅，整體有顆粒感。',
+ no:'平滑漸層、超過三個顏色',
+ h:S('riso','Print club','Ink &amp; error','','Join','',D('a','b'))},
+{id:'news',zh:'報紙鉛字',en:'Newspaper / Letterpress',cat:'retro',hot:0,tone:'l',use:'DK',
+ desc:'報頭、雙線、齊行多欄，黑白鉛字的權威感。',
+ kw:['newspaper layout','masthead','justified multi-column','double rules','black and white','serif headline','dateline'],
+ css:['column 分三欄；text-align:justify','border-top:3px double','報頭 Playfair Display 900'],
+ c:['#F2EEE3','#D8D2C2','#1A1A1A'],f:'Playfair Display（報頭）＋Noto Serif TC（內文）',
+ p:'像一份報紙頭版：最上方是置中的粗襯線報頭，下面是雙線與日期列，內容分成三欄、左右齊行，欄與欄之間有細線。只用米色紙底與黑色文字，主新聞的標題最大。',
+ no:'彩色、圓角、無襯線標題',
+ h:R('news','<div class="mh2">The Daily Layout</div><div class="dl"><span>Vol. 26</span><span>Thursday</span><span>Free</span></div><div class="cols"><div><b>Columns are back in fashion</b>排版老派的規矩，在螢幕上重新變得新鮮。齊行、分欄、雙線。</div><div><b>Ink only</b>黑與白就足夠，不需要更多顏色。</div><div><b>Weather</b>晴，適合閱讀長文。</div></div>')},
+
+{id:'cyber',zh:'賽博霓虹',en:'Cyber Neon',cat:'tech',hot:1,tone:'d',use:'EL',
+ desc:'黑底霓虹、切角面板、掃描線與故障感。',
+ kw:['cyberpunk','neon glow','cyan and magenta','clipped-corner panels','scanlines','glitch effect','HUD typography'],
+ css:['text-shadow:0 0 12px 霓虹色','clip-path:polygon 切角','repeating-linear-gradient 掃描線'],
+ c:['#0A0A12','#1B1036','#00F0FF','#FF2BD6','#FCEE0A'],f:'Orbitron（標題）＋IBM Plex Mono',
+ p:'近黑背景上是青色與洋紅色的霓虹發光文字，標題全大寫並帶輕微的雙色錯位。按鈕與標籤用切掉一角的多邊形，整頁覆蓋一層細掃描線，警示用鮮黃色。',
+ no:'圓角柔和元件、粉彩色',
+ h:S('cyber','System online','Night City','> signal acquired_ 2077','Jack in','// skip')},
+{id:'darksaas',zh:'深色科技 SaaS',en:'Dark Mode SaaS',cat:'tech',hot:1,tone:'d',use:'LT',
+ desc:'近黑底、頂部柔光、極細邊框與精準留白。',
+ kw:['dark mode SaaS','near-black background','subtle top glow','hairline borders','gradient headline','Linear-style','precise spacing','developer tool landing'],
+ css:['radial-gradient 頂部光暈','border:1px solid rgba(255,255,255,.08)','標題白到灰漸層＋background-clip:text'],
+ c:['#08090A','#16181C','#8A8F98','#5E6AD2','#F7F8F8'],f:'Inter 600，字距 -0.03em',
+ p:'背景接近純黑，頁面頂部有一片柔和的靛藍色光暈。標題置中、字距收緊、由白漸到灰，上方有一顆細框的小膠囊公告。邊框都是低透明度的 1px 白線，主按鈕白底黑字、小圓角，次要連結用灰色。',
+ no:'高飽和大色塊、粗框線、純黑配純白的刺眼對比',
+ h:S('darksaas','New · v2.0 →','Plan and build<br>at the speed of thought','為團隊打造的專案工具。','Start building','Docs →',D('a'))},
+{id:'terminal',zh:'終端機',en:'Terminal / CLI',cat:'tech',hot:1,tone:'d',use:'PDT',
+ desc:'黑底綠字、提示字元與閃爍游標。',
+ kw:['terminal UI','command line','green on black','monospace','blinking cursor','ASCII art','hacker aesthetic'],
+ css:['等寬字＋行首 $ 與 >','游標用 steps(1) 閃爍','微弱 text-shadow 螢光'],
+ c:['#0C0C0C','#1E1E1E','#33FF66','#FFB000','#C8C8C8'],f:'IBM Plex Mono',
+ p:'畫面是一個終端機視窗：黑底、螢光綠等寬字，每行以提示字元開頭，重點用琥珀色，說明文字用灰色。有閃爍的方塊游標與視窗標題列，內容像指令輸出一樣一行一行排列。',
+ no:'比例字體、圓角卡片',
+ h:R('terminal','<div class="tb"><i></i><i></i><i></i><span>zsh — 80×24</span></div><pre><u>$</u> npx create-idea <b>--style</b> terminal\n✔ scaffolding project\n✔ installing taste\n<u>&gt;</u> ready in 312ms <span class="cur"></span></pre>')},
+{id:'blueprint',zh:'工程藍圖',en:'Blueprint',cat:'tech',hot:0,tone:'d',use:'DKP',
+ desc:'藍底白線、方格與尺寸標註的工程圖。',
+ kw:['blueprint','technical drawing','white lines on blue','grid paper','dimension annotations','monospace caps','title block'],
+ css:['雙向 linear-gradient 方格','1px 白線、虛線圓','全大寫等寬標註'],
+ c:['#164B9C','#0F3A7D','#FFFFFF','#A9C6F5'],f:'IBM Plex Mono 全大寫',
+ p:'整頁是一張工程藍圖：藍色底加淡白色方格，所有圖形只用白色細線描邊、不填色，旁邊有尺寸線與數字標註。文字用全大寫等寬字，右下角有圖號、比例的標題欄表格。',
+ no:'填色色塊、彩色、圓潤字體',
+ h:S('blueprint','Scale 1:50','Elevation A-01','','','',D('a')+'<span class="dx b"><span>DWG</span><span>A-01</span><span>REV</span><span>03</span></span>')},
+{id:'hud',zh:'科幻 HUD',en:'Sci-fi HUD / FUI',cat:'tech',hot:0,tone:'d',use:'TE',
+ desc:'細線圓環、刻度與即時讀數，電影裡的介面。',
+ kw:['sci-fi HUD','FUI','thin line rings','tick marks','data readouts','corner brackets','teal on dark'],
+ css:['border 部分透明做弧線','repeating-conic-gradient 刻度環','等寬小字讀數'],
+ c:['#071216','#0E2A30','#00E5C7','#7FF5E6','#FF6B3D'],f:'Orbitron（標題）＋IBM Plex Mono',
+ p:'深墨綠背景上用青綠色細線畫出同心圓環、刻度與角落括號，像科幻電影的抬頭顯示器。左側是等寬字的數值讀數與細長條，標題全大寫、字距寬，警示用橘色。',
+ no:'實心大色塊、過粗的線',
+ h:R('hud',D('cn c1','cn c2','rg','rg2')+'<i class="dx rg3">07</i><span class="k">Target lock</span><h4>ORBITAL</h4><div class="rd"><span>SYS</span><i style="--w:92%"></i><span>92%</span><span>PWR</span><i style="--w:64%"></i><span>64%</span><span>SIG</span><i style="--w:38%"></i><span>38%</span></div>')},
+{id:'aiglow',zh:'AI 原生光暈',en:'AI-native Glow',cat:'tech',hot:1,tone:'d',use:'LT',
+ desc:'以輸入框為主角，漸層光邊與柔和光暈。',
+ kw:['AI-native interface','prompt-first layout','glowing gradient border','conic gradient','soft orb glow','suggestion chips','dark ambient'],
+ css:['conic-gradient 外框＋內層實色','box-shadow:0 0 60px 光暈','一排建議指令 chips'],
+ c:['#0B0B14','#12121C','#7C5CFF','#22D3EE','#F472B6'],f:'Inter 500',
+ p:'深色背景，畫面中央是一個大的輸入框，外圈是紫、青、粉的漸層光邊並向外發出柔光。上方一句簡短的提問式標題，下方一排細框的建議指令膠囊，底部有一片淡淡的紫色光暈。',
+ no:'輸入框以外還有多個視覺重心',
+ h:R('aiglow','<h4>What shall we make?</h4><div class="bx"><div>Describe your idea…<i></i></div></div><div class="ch"><b>Summarize</b><b>Design a page</b><b>Explain</b></div>')},
+{id:'spatial',zh:'空間 3D',en:'Spatial / 3D Depth',cat:'tech',hot:1,tone:'l',use:'LPE',
+ desc:'面板有前後層次，帶透視、景深與柔影。',
+ kw:['spatial design','3D depth layers','perspective transforms','floating panels','soft long shadows','parallax','immersive'],
+ css:['perspective＋rotateY／translateZ','依距離加深的多層陰影','滑鼠視差（可關閉）'],
+ c:['#EEF1F6','#FFFFFF','#C9D3E3','#3D5AFE','#141A2A'],f:'Inter 700',
+ p:'幾片圓角面板以帶透視的角度漂浮在淺灰空間裡，有前、中、後三個層次：後面的較淡，前面的有較深的柔和陰影。最前面一片用寶藍色作重點，可隨滑鼠移動產生輕微視差。',
+ no:'旋轉角度過大影響閱讀、所有面板同一層',
+ h:R('spatial','<div class="st"><div class="pn p1"></div><div class="pn p2"><span>Layer 02</span><h4>Depth as hierarchy</h4></div><div class="pn p3">3D</div></div>')},
+
+{id:'organic',zh:'大地有機',en:'Organic / Earthy',cat:'organic',hot:1,tone:'l',use:'LD',
+ desc:'不規則圓弧、大地色與溫潤襯線，貼近自然。',
+ kw:['organic shapes','earthy palette','sage and clay','blob forms','soft serif','natural calm','sustainable brand'],
+ css:['border-radius:60% 40% 55% 45% / 50% 60% 40% 50%','低彩度大地色','Fraunces 柔和襯線'],
+ c:['#F3EDE2','#C9D2B5','#5B6B4A','#C97B4A','#2F3A2C'],f:'Fraunces（標題）＋Manrope',
+ p:'米色底配鼠尾草綠、陶土橘與深橄欖綠，背景有幾塊不規則的圓弧色塊像石頭或葉子。標題用柔和的襯線體，按鈕是綠色膠囊，線條圓潤、沒有銳角，整體安靜自然。',
+ no:'純黑純白、銳利直角、螢光色',
+ h:S('organic','Slow living','Rooted in <em>nature</em>','','Explore','',D('a','b'))},
+{id:'sketch',zh:'手繪塗鴉',en:'Hand-drawn / Doodle',cat:'organic',hot:1,tone:'l',use:'EKD',
+ desc:'手寫字、歪歪的框線與螢光筆，有人味的草稿感。',
+ kw:['hand-drawn UI','sketchy borders','handwritten font','marker highlights','doodle arrows','imperfect lines','human touch'],
+ css:['border-radius:255px 15px 225px 15px/15px 225px 15px 255px','Caveat 手寫字','SVG 手繪箭頭＋螢光筆底色'],
+ c:['#FFFDF7','#FFE66D','#FF7A59','#222222'],f:'Caveat（標題與標註）',
+ p:'像筆記本上的手繪草稿：淡橫線的紙底、手寫字體，框線故意畫得不規則，重點字用黃色螢光筆塗過。加上手繪箭頭與圈註，顏色只有黑線、黃色螢光筆與一點橘紅。',
+ no:'完美對齊的幾何線、數位感漸層',
+ h:S('sketch','','Made by <mark>hand</mark>','not by default.','say hi!','','<svg class="dx" viewBox="0 0 130 110" fill="none" stroke="#FF7A59" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M118 12C92 6 54 18 34 52c-8 14-10 28-8 40"/><path d="M12 76l14 18 16-16"/></svg>')},
+{id:'paper',zh:'紙雕層疊',en:'Paper Cut',cat:'organic',hot:0,tone:'c',use:'ELK',
+ desc:'一層層色紙疊出景深，邊緣帶柔影。',
+ kw:['paper cut art','layered paper','soft drop shadows','flat color layers','depth illusion','craft feel'],
+ css:['多層弧形＋filter:drop-shadow','同色系由淺到深','細紙紋 noise'],
+ c:['#F6D8B8','#F2A65A','#E07A5F','#B5503C','#3D405B'],f:'Fraunces 600',
+ p:'用四到五層弧形色紙由淺到深往前堆疊成山丘般的景深，每層邊緣都有柔和的投影，像真的紙雕。顏色是杏色、橘、磚紅到深藍灰，遠處有一顆淺色的圓當太陽，文字放在最上方的空白處。',
+ no:'漸層填色、硬邊黑框',
+ h:S('paper','','Layers of paper','','','',D('sn','ly l1','ly l2','ly l3','ly l4'))},
+{id:'pastel',zh:'柔和粉彩',en:'Soft Pastel',cat:'organic',hot:0,tone:'l',use:'LED',
+ desc:'低飽和粉彩、圓角與輕盈留白，溫柔親切。',
+ kw:['soft pastel','gentle rounded UI','low-saturation colors','friendly','airy spacing','kawaii-lite'],
+ css:['粉彩底＋同色系深字','border-radius:24px','淡彩色陰影'],
+ c:['#FFF4F7','#FFD6E4','#D9E8FF','#DDF5E6','#FFF0C9','#5B5270'],f:'Manrope 800（標題）',
+ p:'底色是很淡的粉白，搭配粉紅、淡藍、薄荷綠與奶油黃等低飽和粉彩，文字用灰紫色而不是黑色。元件圓角大、陰影是淡淡的同色系，角落放幾顆粉彩圓形，氣氛輕盈溫柔。',
+ no:'純黑文字、高對比粗框',
+ h:S('pastel','','Be gentle today','','Start softly','',D('a','b','c')+'<span class="ch"><b>calm</b><b>kind</b><b>light</b></span>')},
+
+{id:'bento',zh:'便當格',en:'Bento Grid',cat:'layout',hot:1,tone:'l',use:'LTPK',
+ desc:'大小不一的圓角格子拼成一頁，重點一眼掃完。',
+ kw:['bento grid','modular cards','asymmetric tiles','rounded containers','feature highlights','scan-friendly'],
+ css:['grid-template-columns:repeat(4,1fr)＋span','gap 12–16px、圓角 20–24px','每格只放一個重點'],
+ c:['#F1F2F4','#FFFFFF','#15171A','#3D5AFE','#C8F560'],f:'Inter，數字加粗放大',
+ p:'把內容拆成大小不一的圓角格子，用四欄網格拼成一個方正的整體。最重要的那格最大、用深色或強調色，其餘白底；每格只放一個重點：一個大數字、一句話或一張小圖表，格子間距一致。',
+ no:'每格塞太多內容、格子大小全部一樣',
+ h:R('bento','<div class="b1">Uptime<b>99.9%</b></div><div class="b2"><b>Ship faster</b>12 integrations</div><div class="b3"><b>24</b>teams</div><div class="b4"><b>A+</b>score</div><div class="b5"><i style="--h:30%"></i><i style="--h:55%"></i><i style="--h:42%"></i><i style="--h:70%"></i><i class="on" style="--h:100%"></i><i style="--h:62%"></i><i style="--h:48%"></i></div><div class="b6"><b>4.8</b>rating</div>')},
+{id:'split',zh:'分割畫面',en:'Split Screen',cat:'layout',hot:0,tone:'l',use:'LPD',
+ desc:'左右各半：一邊說、一邊看。',
+ kw:['split-screen layout','two-column hero','50/50','contrasting halves','sticky side'],
+ css:['grid-template-columns:1fr 1fr','一側 position:sticky','窄螢幕改成上下堆疊'],
+ c:['#15171A','#FFFFFF','#E9D8C4','#C7A98A'],f:'依搭配風格決定',
+ p:'畫面左右對分成兩半：一半是深色底的文字區，放標題、說明與按鈕；另一半是滿版的圖片或視覺。兩邊對比明確，捲動時可讓其中一側固定不動，手機上改成上下堆疊。',
+ no:'兩邊都放大量文字、中線位置不固定',
+ h:R('split','<div class="l"><span class="k">Studio</span><h4>Say it.<br>Show it.</h4><b class="bt">View work</b></div><div class="rr"><i></i></div>')},
+{id:'broken',zh:'破格不對稱',en:'Broken Grid / Asymmetric',cat:'layout',hot:1,tone:'l',use:'PLE',
+ desc:'元素互相重疊、錯位，打破對齊的張力。',
+ kw:['broken grid','asymmetric layout','overlapping elements','offset images','rotated captions','editorial tension'],
+ css:['多個元素放進同一個 grid-area 重疊','負 margin／translate 錯位','writing-mode 直排小字'],
+ c:['#F4F1EC','#27364B','#E0603A','#111111'],f:'特粗無襯線大標',
+ p:'刻意打破網格：圖片偏向一側，超大標題跨過圖片邊緣並與它重疊，另一個小色塊錯位疊在角落。搭配直排的小字、頁碼與短說明散落在四周，留白不平均但有重心。',
+ no:'重疊造成文字不可讀、手機版沒有另外重排',
+ h:R('broken','<span class="im"></span><span class="im2"></span><h4>Off&nbsp;grid</h4><span class="vt">Portfolio 2026</span><span class="nb">(03)</span><span class="cp">規則是用來被打破的。</span>')},
+{id:'scrolly',zh:'滾動敘事',en:'Scrollytelling',cat:'layout',hot:1,tone:'l',use:'DLK',
+ desc:'邊捲邊講：章節進度、固定視覺、分段揭露。',
+ kw:['scrollytelling','sticky sections','chapter progress','scroll-driven animation','narrative pacing','step-by-step reveal'],
+ css:['position:sticky 的視覺區','animation-timeline:scroll()','頂部閱讀進度條'],
+ c:['#FBFAF7','#DDDDDD','#AAAAAA','#111111'],f:'Instrument Serif（章節標題）＋Inter',
+ p:'把內容拆成幾個章節，一屏只講一個重點。左側有固定的章節清單並標示目前位置，頂部有閱讀進度條；捲動時主要視覺固定不動，文字一段一段進場。所有內容在不啟用動畫時也要完整可讀。',
+ no:'內容要捲到才出現且沒有靜態版本、劫持捲動速度',
+ h:R('scrolly','<div class="rl"><span>開場</span><span class="on">轉折</span><span>證據</span><span>結論</span></div><div class="tx"><small>Chapter 02 / 04</small><h4>Then it turned.</h4><p>每一屏只講一件事。</p><span class="nx">03 The evidence</span></div>')},
+{id:'dense',zh:'高密度儀表板',en:'Data-dense Dashboard',cat:'layout',hot:1,tone:'l',use:'TD',
+ desc:'緊湊列高、狀態標籤、表格數字對齊，一屏看完。',
+ kw:['data-dense dashboard','compact tables','KPI tiles','status pills','sparklines','tabular numbers','quiet chrome'],
+ css:['font-variant-numeric:tabular-nums','列高 28–34px','顏色只用來表示狀態'],
+ c:['#EEF0F3','#FFFFFF','#15171A','#1A8A4F','#C2412F'],f:'Inter 14–16px',
+ p:'左側窄導覽列，上方一排 KPI 數字，下面是緊湊的資料表格。畫面大部分是白與灰，顏色只用在狀態標籤（正常、警告、異常）與漲跌，數字用等寬數字靠右對齊，面板之間用灰底區隔而不是陰影。',
+ no:'裝飾性漸層、大留白 hero、用顏色做裝飾',
+ h:R('dense','<div class="sb"><i></i><i></i><i></i><i></i></div><div class="mn"><div class="kp"><div>Active<b>1,284</b><em>+4.2%</em></div><div>Pending<b>37</b><em class="dn">−1.1%</em></div><div>SLA<b>98.6%</b><em>+0.3%</em></div></div><table><tr><th>ID</th><th>Status</th><th>Time</th></tr><tr><td>CT-2041</td><td><span class="pl">Done</span></td><td>02:14</td></tr><tr><td>MR-1187</td><td><span class="pl w">Pending</span></td><td>11:40</td></tr><tr><td>XR-0932</td><td><span class="pl e">Urgent</span></td><td>00:52</td></tr><tr><td>CT-2040</td><td><span class="pl">Done</span></td><td>03:27</td></tr></table></div>')},
+{id:'masonry',zh:'卡片瀑布流',en:'Masonry Cards',cat:'layout',hot:0,tone:'l',use:'PE',
+ desc:'不等高卡片錯落排列，適合大量內容瀏覽。',
+ kw:['masonry grid','card layout','varying heights','gallery','pinboard'],
+ css:['columns:3; break-inside:avoid','或 grid-auto-rows＋span','卡片統一圓角與間距'],
+ c:['#F1F2F4','#FFFFFF','#27364B','#E0603A','#C8B6A6'],f:'依搭配風格決定',
+ p:'內容做成寬度相同、高度不同的卡片，分成三到四欄由上往下錯落排列，像釘板牆。每張卡片上方是圖片或色塊、下方是短標題，圓角與間距全部一致，欄數隨螢幕寬度增減。',
+ no:'卡片樣式不一致、需要依序閱讀的內容',
+ h:R('masonry',[[['20cqw','#27364B'],['12cqw','#C8B6A6']],[['11cqw','#E0603A'],['15cqw','#9DB4C0'],['7cqw','#C8B6A6']],[['14cqw','#C8B6A6'],['19cqw','#27364B']]].map((col,j)=>'<section>'+col.map(([h,c],i)=>`<div><i style="--h:${h};background:${c}"></i><span>Card ${[0,2,5][j]+i+1}</span></div>`).join('')+'</section>').join(''))},
+];
+
+const TEMPS=[['w','暖色'],['k','冷色'],['n','中性']];
+const COLORS=[
+{id:'c-paper',zh:'暖白墨黑',en:'Paper & Ink',tone:'l',temp:'w',c:{bg:'#FAF8F3',sf:'#FFFFFF',ln:'#DCD6C8',ac:'#1B1A17',tx:'#1B1A17'},ex:['#B9B2A3','#5C574E'],desc:'像好紙與好墨，最耐看的閱讀配色。',kw:['warm off-white','ink black','paper tone','neutral warm grays'],for:['editorial','swiss','news','mono']},
+{id:'c-graphite',zh:'冷灰石墨',en:'Graphite',tone:'l',temp:'k',c:{bg:'#F5F6F7',sf:'#FFFFFF',ln:'#DDE1E5',ac:'#14181D',tx:'#14181D'},ex:['#9AA3AD','#47505A'],desc:'偏藍的冷灰階，理性、專業、不搶內容。',kw:['cool gray scale','graphite','neutral UI','low chroma'],for:['dense','bento','calm','structural']},
+{id:'c-oxblood',zh:'酒紅書卷',en:'Oxblood Editorial',tone:'l',temp:'w',c:{bg:'#F4F1EA',sf:'#FBF9F4',ln:'#E2DACB',ac:'#7A1F1F',tx:'#1A1A1A'},ex:['#9A8F7E'],desc:'米色紙底加一點酒紅，沉穩有書卷氣。',kw:['cream paper','oxblood accent','literary','muted warm'],for:['editorial','scrolly','news']},
+{id:'c-moss',zh:'森林苔綠',en:'Forest Moss',tone:'l',temp:'n',c:{bg:'#F2F0E6',sf:'#FBFAF4',ln:'#C9D2B5',ac:'#3E5641',tx:'#1E2B22'},ex:['#7F9468'],desc:'苔綠與米白，安定、自然、有呼吸感。',kw:['moss green','sage','natural','calm earthy'],for:['organic','calm','japandi']},
+{id:'c-terra',zh:'陶土大地',en:'Terracotta Earth',tone:'l',temp:'w',c:{bg:'#F6EDE3',sf:'#FFF8F0',ln:'#E3C6A8',ac:'#C97B4A',tx:'#3A2A20'},ex:['#8A4B2D'],desc:'陶土橘與深咖啡，溫暖、手作、有土地感。',kw:['terracotta','clay','warm earth tones','sun-baked'],for:['organic','paper','seventies']},
+{id:'c-morandi',zh:'莫蘭迪灰調',en:'Morandi Muted',tone:'l',temp:'n',c:{bg:'#E8E2DA',sf:'#F3EEE8',ln:'#C9B9AE',ac:'#8E9AAB',tx:'#4A4650'},ex:['#A7B0A5','#6E6A73'],desc:'每個顏色都加了灰，柔和不刺眼。',kw:['Morandi colors','muted dusty tones','grayish pastels','soft harmony'],for:['japandi','pastel','calm']},
+{id:'c-sea',zh:'海鹽藍',en:'Sea Salt Blue',tone:'l',temp:'k',c:{bg:'#F3F7FA',sf:'#FFFFFF',ln:'#D4E4EE',ac:'#2F6690',tx:'#16324F'},ex:['#7FA8C4'],desc:'乾淨的淺藍階，清爽、可信賴。',kw:['sea blue','airy','trustworthy','clean cool tones'],for:['calm','spatial','bento']},
+{id:'c-clinical',zh:'醫療潔淨',en:'Clinical Clean',tone:'l',temp:'k',c:{bg:'#EEF3F5',sf:'#FFFFFF',ln:'#C9D6DA',ac:'#1F8A8F',tx:'#12343B'},ex:['#B7D9DC'],desc:'白、灰與藍綠，安靜、清楚、適合長時間使用。',kw:['clinical white','teal accent','healthcare UI','quiet and legible'],for:['dense','calm','bento']},
+{id:'c-monoone',zh:'黑白加一色',en:'Mono + One',tone:'l',temp:'n',c:{bg:'#FFFFFF',sf:'#F2F2F2',ln:'#111111',ac:'#FF4F00',tx:'#111111'},ex:['#BDBDBD'],desc:'純黑白只加一個鮮明強調色，最有力的極簡。',kw:['black and white','single accent color','high contrast','safety orange'],for:['swiss','structural','mono','broken']},
+{id:'c-pastel',zh:'柔粉彩',en:'Soft Pastel',tone:'l',temp:'w',c:{bg:'#FFF4F7',sf:'#FFFFFF',ln:'#FFD6E4',ac:'#F28DB2',tx:'#5B5270'},ex:['#D9E8FF','#DDF5E6','#FFF0C9','#EFE5FF'],desc:'粉紅、淡藍、薄荷與奶油黃，輕盈親切。',kw:['soft pastel','candy tones','gentle','low saturation'],for:['pastel','clay','y2k']},
+{id:'c-midnight',zh:'午夜靛藍',en:'Midnight Indigo',tone:'d',temp:'k',c:{bg:'#0B1020',sf:'#151B33',ln:'#2B3A67',ac:'#5E6AD2',tx:'#E6E9F5'},ex:['#8A93B8'],desc:'深藍黑配靛紫，科技產品的經典深色。',kw:['midnight blue','indigo accent','dark UI','calm tech'],for:['darksaas','glass','aiglow']},
+{id:'c-blackgold',zh:'黑金香檳',en:'Black & Champagne',tone:'d',temp:'w',c:{bg:'#0F0E0C',sf:'#1C1A16',ln:'#3A342A',ac:'#C9A45C',tx:'#EFE7D6'},ex:['#8C7A5B'],desc:'暖黑配香檳金與象牙白，克制的奢華。',kw:['black and gold','champagne','ivory text','luxury dark'],for:['quietlux','deco']},
+{id:'c-lime',zh:'墨綠萊姆',en:'Ink & Lime',tone:'d',temp:'n',c:{bg:'#0E1210',sf:'#1C2420',ln:'#2E3A33',ac:'#C8F560',tx:'#E9F5D0'},ex:['#7A8A80'],desc:'近黑的墨綠配螢光萊姆，現代、銳利。',kw:['near-black green','electric lime','modern tech','high energy accent'],for:['bigtype','terminal','bento']},
+{id:'c-aurora',zh:'極光',en:'Aurora',tone:'d',temp:'k',c:{bg:'#0D0B1E',sf:'#17143A',ln:'#2C2760',ac:'#5B3DF5',tx:'#F3F0FF'},ex:['#22D3EE','#34D399','#F0ABFC'],desc:'深紫底配紫、青、綠、粉的光。',kw:['aurora palette','violet cyan green','glowing','night sky'],for:['aurora','aiglow','glass']},
+{id:'c-neon',zh:'霓虹夜城',en:'Neon Night',tone:'c',temp:'k',c:{bg:'#0A0A12',sf:'#1B1036',ln:'#2E2A5C',ac:'#00F0FF',tx:'#E8FBFF'},ex:['#FF2BD6','#FCEE0A'],desc:'黑底上的青、洋紅與警示黃。',kw:['neon cyan','magenta','cyberpunk palette','glow on black'],for:['cyber','vapor','hud']},
+{id:'c-dopamine',zh:'多巴胺',en:'Dopamine Pop',tone:'c',temp:'w',c:{bg:'#FFF8EC',sf:'#FFFFFF',ln:'#1A1A1A',ac:'#FF3EA5',tx:'#1A1A1A'},ex:['#FF7A1A','#FFD23F','#00C2A8','#3B5BFF'],desc:'五個高飽和色互撞，活力滿點。',kw:['dopamine brights','hot pink','color clash','joyful saturated'],for:['dopamine','neobrut','tactile','memphis']},
+{id:'c-70s',zh:'復古七〇',en:'Retro 70s',tone:'c',temp:'w',c:{bg:'#F2E3C6',sf:'#F8EEDA',ln:'#E0A93B',ac:'#D1622B',tx:'#7A3B1D'},ex:['#3F5E4A'],desc:'芥末黃、橘、咖啡與墨綠的老派暖調。',kw:['mustard','burnt orange','brown','vintage warm'],for:['seventies','organic']},
+{id:'c-riso',zh:'孔版雙色',en:'Riso Duo',tone:'c',temp:'n',c:{bg:'#F7F2E7',sf:'#FFFBF0',ln:'#1A1A1A',ac:'#FF48B0',tx:'#1A1A1A'},ex:['#0078BF','#FFE800'],desc:'螢光粉紅、藍與黃，印刷專色的鮮豔。',kw:['riso pink','riso blue','spot colors','overprint'],for:['riso','collage','neobrut']},
+];
+
+const FTYPES=[['serif','襯線'],['sans','無襯線'],['mono','等寬'],['display','展示字'],['hand','手寫'],['zh','中文']];
+const FONTS=[
+{id:'f-editorial',zh:'編輯優雅',dn:'Instrument Serif',bn:'Inter',d:"'Instrument Serif',Georgia,serif",b:"Inter,'Noto Sans TC',sans-serif",w:400,type:['serif','sans'],desc:'細緻襯線大標配中性內文，適合品牌敘事與長文。',h:'The art of quiet detail',for:['editorial','scrolly']},
+{id:'f-organic',zh:'溫潤有機',dn:'Fraunces',bn:'Manrope',d:"Fraunces,Georgia,serif",b:"Manrope,'Noto Sans TC',sans-serif",w:500,type:['serif','sans'],desc:'帶柔軟弧度的襯線配圓潤無襯線，溫暖親切。',h:'Rooted in nature',for:['organic','grain','seventies','paper']},
+{id:'f-lux',zh:'靜奢高對比',dn:'Cormorant Garamond',bn:'Manrope',d:"'Cormorant Garamond',Georgia,serif",b:"Manrope,'Noto Sans TC',sans-serif",w:400,type:['serif','sans'],desc:'纖細高對比襯線，搭配寬字距小字最有效。',h:'Less, but better',for:['quietlux','deco']},
+{id:'f-news',zh:'報刊權威',dn:'Playfair Display',bn:'Noto Serif TC',d:"'Playfair Display',Georgia,serif",b:"'Noto Serif TC',Georgia,serif",w:900,type:['serif','zh'],desc:'粗襯線標題配襯線內文，像報紙頭版。',h:'The Daily Layout',for:['news','collage']},
+{id:'f-chunky',zh:'粗獷活潑',dn:'Bricolage Grotesque',bn:'Inter',d:"'Bricolage Grotesque',Inter,sans-serif",b:"Inter,'Noto Sans TC',sans-serif",w:800,type:['sans','display'],desc:'有個性的特粗無襯線，適合大膽、俏皮的風格。',h:'Loud & proud',for:['neobrut','tactile','dopamine','riso']},
+{id:'f-future',zh:'寬體未來',dn:'Unbounded',bn:'Manrope',d:"Unbounded,Inter,sans-serif",b:"Manrope,'Noto Sans TC',sans-serif",w:800,type:['display','sans'],desc:'寬而圓的展示字，適合金屬、Y2K 與未來感。',h:'Chrome future',for:['chrome','y2k','vapor']},
+{id:'f-poster',zh:'海報窄體',dn:'Bebas Neue',bn:'Inter',d:"'Bebas Neue','Arial Narrow',sans-serif",b:"Inter,'Noto Sans TC',sans-serif",w:400,type:['display','sans'],desc:'全大寫窄體，放到最大當主視覺。',h:'MAKE IT LOUD',for:['bigtype','collage']},
+{id:'f-mono',zh:'技術等寬',dn:'IBM Plex Mono',bn:'Inter',d:"'IBM Plex Mono',ui-monospace,monospace",b:"Inter,'Noto Sans TC',sans-serif",w:600,type:['mono','sans'],desc:'等寬標題與標註配中性內文，工程與資料感。',h:'$ plain text, well set',for:['mono','terminal','structural','blueprint']},
+{id:'f-scifi',zh:'科幻儀表',dn:'Orbitron',bn:'IBM Plex Mono',d:"Orbitron,Inter,sans-serif",b:"'IBM Plex Mono',monospace",w:700,type:['display','mono'],desc:'幾何科幻字配等寬讀數。',h:'ORBITAL 07',for:['cyber','hud']},
+{id:'f-pixel',zh:'像素點陣',dn:'Press Start 2P',bn:'IBM Plex Mono',d:"'Press Start 2P','Courier New',monospace",b:"'IBM Plex Mono',monospace",w:400,type:['display','mono'],desc:'點陣遊戲字，只用在標題與按鈕。',h:'NEW GAME',small:1,for:['pixel']},
+{id:'f-hand',zh:'手寫筆記',dn:'Caveat',bn:'Manrope',d:"Caveat,cursive",b:"Manrope,'Noto Sans TC',sans-serif",w:700,type:['hand','sans'],desc:'手寫標題與標註，內文仍用好讀的無襯線。',h:'Made by hand',for:['sketch','collage']},
+{id:'f-zh',zh:'中文正式',dn:'Noto Serif TC',bn:'Noto Sans TC',d:"'Noto Serif TC',serif",b:"'Noto Sans TC',sans-serif",w:700,type:['zh','serif','sans'],desc:'宋體標題配黑體內文，中文長文最穩的組合。',h:'質感來自取捨',for:['japandi','news','editorial']},
+];
+
+const TABS={
+  styles:{data:STYLES,groups:[
+    {key:'cat',label:'分類',opts:CATS,count:1},
+    {key:'hot',label:'熱度',opts:[['1','2026 主流'],['0','經典常青']]},
+    {key:'tone',label:'色調',opts:TONES},
+    {key:'use',label:'適合情境',opts:USES}],
+   hint:'點卡片看關鍵字、色票與一段話 prompt'},
+  colors:{data:COLORS,groups:[{key:'tone',label:'色調',opts:TONES},{key:'temp',label:'色溫',opts:TEMPS}],hint:'點卡片看色碼、CSS 變數與 prompt'},
+  fonts:{data:FONTS,groups:[{key:'type',label:'字體類型',opts:FTYPES}],hint:'字體皆可從 Google Fonts 載入'}
+};
+const state={tab:'styles',q:'',f:{styles:{},colors:{},fonts:{}}};
+const byId=id=>STYLES.find(s=>s.id===id)||COLORS.find(s=>s.id===id)||FONTS.find(s=>s.id===id);
+const catName=k=>CATS.find(c=>c[0]===k)[1];
+const esc=t=>String(t).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const lum=h=>{const n=parseInt(h.slice(1),16),f=v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)};return .2126*f(n>>16)+.7152*f(n>>8&255)+.0722*f(n&255)};
+const on=h=>lum(h)>.45?'#111111':'#FFFFFF';
+const palList=p=>[p.c.bg,p.c.sf,p.c.ln,...(p.ex||[]),p.c.ac,p.c.tx].filter((v,i,a)=>a.indexOf(v)===i);
+
+function match(it,g,v){
+  const x=it[g.key];
+  if(g.key==='use')return x.includes(v);
+  if(Array.isArray(x))return x.includes(v);
+  return String(x)===v;
+}
+function filtered(){
+  const t=TABS[state.tab],f=state.f[state.tab],q=state.q.trim().toLowerCase();
+  return t.data.filter(it=>{
+    for(const g of t.groups){if(f[g.key]&&!match(it,g,f[g.key]))return false}
+    if(q){const hay=[it.zh,it.en,it.desc,it.dn,it.bn,...(it.kw||[]),it.cat?catName(it.cat):''].join(' ').toLowerCase();if(!hay.includes(q))return false}
+    return true});
+}
+function renderSide(){
+  const t=TABS[state.tab],f=state.f[state.tab];
+  $('#side').innerHTML=t.groups.map(g=>`<div class="fg"><h3>${g.label}</h3><div class="tags">`+
+    g.opts.map(([v,l])=>`<button class="tag" data-k="${g.key}" data-v="${v}" aria-pressed="${f[g.key]===v}">${l}${g.count?`<i>${t.data.filter(it=>match(it,g,v)).length}</i>`:''}</button>`).join('')+
+    `</div></div>`).join('')+
+    `<p class="note"><b>怎麼用</b><br>1. 用左側條件或搜尋縮小範圍。<br>2. 點卡片，複製「關鍵字」或「一段話 prompt」。<br>3. 貼進任何要轉成 HTML 的任務裡。<br><br>內容由 Claude 依 2026 年趨勢文章與設計通則整理（2026-11）。</p>`;
+}
+function cardStyle(s){
+  return `<div class="card" role="button" tabindex="0" data-id="${s.id}"><div class="pv">${s.h}</div><div class="cb">
+  <div class="ct"><h2>${s.zh}</h2><span>${esc(s.en)}</span></div>
+  <div class="badges"><span class="badge">${catName(s.cat)}</span>${s.hot?'<span class="badge hot">2026 主流</span>':''}</div>
+  <p class="cd">${s.desc}</p>
+  <div class="cf"><span class="dots">${s.c.map(c=>`<i style="background:${c}"></i>`).join('')}</span><span class="kwl">${esc(s.kw.slice(0,2).join(' · '))}</span></div></div></div>`;
+}
+function demo(p){const c=p.c;return `<div class="demo" style="background:${c.bg};color:${c.tx}"><div class="dc" style="background:${c.sf};border-color:${c.ln}"><div><b>Aa 標題文字</b><small>說明文字 Body text</small></div><span class="db" style="background:${c.ac};color:${on(c.ac)}">按鈕</span></div>${p.ex?`<div class="ex">${p.ex.map(e=>`<i style="background:${e}"></i>`).join('')}</div>`:''}</div>`}
+function cardColor(p){
+  return `<div class="card" role="button" tabindex="0" data-id="${p.id}"><div class="strip">${palList(p).map(c=>`<i style="background:${c}"></i>`).join('')}</div>${demo(p)}<div class="cb">
+  <div class="ct"><h2>${p.zh}</h2><span>${esc(p.en)}</span></div>
+  <div class="badges"><span class="badge">${TONES.find(t=>t[0]===p.tone)[1]}</span><span class="badge">${TEMPS.find(t=>t[0]===p.temp)[1]}</span></div>
+  <p class="cd">${p.desc}</p><div class="cf"><span class="kwl">${esc(p.kw.slice(0,3).join(' · '))}</span></div></div></div>`;
+}
+const fontPrompt=f=>`字體：標題用 ${f.dn}（字重 ${f.w}），內文用 ${f.bn}，皆從 Google Fonts 載入，並設定合適的備用字體。`;
+function cardFont(f){
+  return `<div class="card" data-id="${f.id}" style="cursor:default"><div class="fs"><p class="fh" style="font-family:${f.d};font-weight:${f.w};${f.small?'font-size:20px;line-height:1.5':''}">${esc(f.h)}</p><p class="fb" style="font-family:${f.b}">質感來自細節的取捨。The quick brown fox jumps over the lazy dog. 0123456789</p></div><div class="cb">
+  <div class="ct"><h2>${f.zh}</h2><span>${f.dn} ＋ ${f.bn}</span></div>
+  <div class="badges">${f.type.map(t=>`<span class="badge">${FTYPES.find(x=>x[0]===t)[1]}</span>`).join('')}</div>
+  <p class="cd">${f.desc}</p>
+  <p class="cd" style="color:var(--text-tertiary)">適合：${f.for.map(i=>byId(i).zh).join('、')}</p>
+  <div class="cf"><button class="btn" data-copy="${esc(fontPrompt(f))}">${ICON_COPY}複製字體 prompt</button></div></div></div>`;
+}
+function render(){
+  const t=TABS[state.tab],list=filtered(),f=state.f[state.tab];
+  document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',b.dataset.tab===state.tab));
+  $('#cnt').textContent=list.length;$('#tot').textContent=t.data.length;$('#hint').textContent=t.hint;
+  $('#clear').hidden=!(state.q||Object.values(f).some(Boolean));
+  const fn={styles:cardStyle,colors:cardColor,fonts:cardFont}[state.tab];
+  $('#grid').innerHTML=list.length?list.map(fn).join(''):`<div class="empty" style="grid-column:1/-1"><b>沒有符合的項目</b>試著減少篩選條件，或換一個關鍵字。</div>`;
+}
+function setTab(tab,push){
+  if(!TABS[tab])tab='styles';
+  state.tab=tab;renderSide();render();$('#scroll').scrollTop=0;
+  if(push&&location.hash!=='#'+tab){try{location.hash=tab}catch(e){}}
+}
+
+let tt;
+function toast(m){$('#toastt').textContent=m;$('#toast').hidden=false;clearTimeout(tt);tt=setTimeout(()=>$('#toast').hidden=true,1800)}
+async function copy(text){
+  try{await navigator.clipboard.writeText(text);toast('已複製')}
+  catch(e){
+    const ta=document.createElement('textarea');ta.value=text;ta.style.cssText='position:fixed;opacity:0';document.body.appendChild(ta);ta.select();
+    let ok=false;try{ok=document.execCommand('copy')}catch(_){}
+    ta.remove();toast(ok?'已複製':'無法自動複製，請手動選取文字');
+  }
+}
+
+let lastFocus=null,cur=null;
+function compose(s,pid,fid){
+  const p=pid&&byId(pid),f=fid&&byId(fid);
+  let t=`請把內容做成單一 HTML 檔（CSS 與 JS 都寫在同一個檔案裡），視覺風格採用「${s.zh}（${s.en}）」。\n\n${s.p}\n\n`;
+  t+=p?`配色改用「${p.zh}」（與上面提到的顏色不同時，以這組為準）：背景 ${p.c.bg}、表面 ${p.c.sf}、線條 ${p.c.ln}、強調 ${p.c.ac}、文字 ${p.c.tx}${p.ex?`，點綴色 ${p.ex.join('、')}`:''}。`:`配色：${s.c.join('、')}。`;
+  t+=f?`${fontPrompt(f)}`:`字體：${s.f}。`;
+  t+=`\n\n風格關鍵字：${s.kw.join(', ')}。\n請避免：${s.no}。`;
+  return t;
+}
+function openStyle(s){
+  cur=s;$('#mt').textContent=s.zh;$('#men').textContent=s.en;
+  const mb=$('#mb');mb.className='mb';
+  mb.innerHTML=`<div class="col">
+    <div class="pvwrap"><div class="pv">${s.h}</div></div>
+    <div class="sec"><h3>色票<span style="font-weight:400;color:var(--text-tertiary)">點一下複製色碼</span></h3><div class="sw">${s.c.map(c=>`<button data-copy="${c}"><i style="background:${c}"></i><span>${c}</span></button>`).join('')}</div></div>
+    <div class="sec"><h3>CSS 重點</h3><ul class="css">${s.css.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>
+    <div class="sec"><h3>建議字體</h3><p class="sub">${esc(s.f)}</p></div>
+  </div><div class="col">
+    <div class="sec"><div class="badges" style="margin-bottom:8px"><span class="badge">${catName(s.cat)}</span>${s.hot?'<span class="badge hot">2026 主流</span>':'<span class="badge">經典常青</span>'}</div><p>${s.desc}</p></div>
+    <div class="sec"><h3>適合情境</h3><p class="sub">${[...s.use].map(u=>USES.find(x=>x[0]===u)[1]).join('、')}</p></div>
+    <div class="sec"><h3>要避免</h3><p class="sub">${esc(s.no)}</p></div>
+    <div class="sec"><h3>Prompt 關鍵字<button class="btn" data-copy="${esc(s.kw.join(', '))}">${ICON_COPY}複製全部</button></h3><div class="kw">${s.kw.map(k=>`<button data-copy="${esc(k)}">${esc(k)}</button>`).join('')}</div></div>
+    <div class="sec"><h3>一段話 prompt<button class="btn pri" id="cp">${ICON_COPY}複製 prompt</button></h3>
+      <div class="two" style="margin-bottom:8px"><label for="selp">換配色<select id="selp"><option value="">這個風格的預設配色</option>${COLORS.map(c=>`<option value="${c.id}">${c.zh}</option>`).join('')}</select></label>
+      <label for="self">換字體<select id="self"><option value="">這個風格的預設字體</option>${FONTS.map(c=>`<option value="${c.id}">${c.zh}（${c.dn}）</option>`).join('')}</select></label></div>
+      <textarea id="pt" readonly aria-label="一段話 prompt"></textarea></div>
+  </div>`;
+  const upd=()=>{$('#pt').value=compose(s,$('#selp').value,$('#self').value)};
+  $('#selp').onchange=upd;$('#self').onchange=upd;upd();
+  $('#cp').onclick=()=>copy($('#pt').value);
+  show();
+}
+function openColor(p){
+  cur=p;$('#mt').textContent=p.zh;$('#men').textContent=p.en;
+  const roles=[['背景',p.c.bg],['表面',p.c.sf],['線條',p.c.ln],['強調',p.c.ac],['文字',p.c.tx],...(p.ex||[]).map(e=>['點綴',e])];
+  const vars=`:root{\n  --bg:${p.c.bg};\n  --surface:${p.c.sf};\n  --line:${p.c.ln};\n  --accent:${p.c.ac};\n  --text:${p.c.tx};${(p.ex||[]).map((e,i)=>`\n  --extra-${i+1}:${e};`).join('')}\n}`;
+  const pr=`配色採用「${p.zh}（${p.en}）」：背景 ${p.c.bg}、表面 ${p.c.sf}、線條 ${p.c.ln}、強調 ${p.c.ac}、文字 ${p.c.tx}${p.ex?`，點綴色 ${p.ex.join('、')}`:''}。強調色只用在按鈕、連結與重點，大面積維持背景與表面色。色彩關鍵字：${p.kw.join(', ')}。`;
+  const mb=$('#mb');mb.className='mb';
+  mb.innerHTML=`<div class="col">
+    <div class="pvwrap"><div class="strip" style="height:120px;border-radius:0">${palList(p).map(c=>`<i style="background:${c}"></i>`).join('')}</div><div style="padding-bottom:16px">${demo(p)}</div></div>
+    <div class="sec"><h3>色票<span style="font-weight:400;color:var(--text-tertiary)">點一下複製色碼</span></h3><div class="sw">${roles.map(([r,c])=>`<button data-copy="${c}"><i style="background:${c}"></i><em>${r}</em><span>${c}</span></button>`).join('')}</div></div>
+  </div><div class="col">
+    <div class="sec"><p>${p.desc}</p></div>
+    <div class="sec"><h3>搭配風格</h3><div class="rel">${p.for.map(i=>`<button class="tag" data-open="${i}">${byId(i).zh}</button>`).join('')}</div></div>
+    <div class="sec"><h3>CSS 變數<button class="btn" data-copy="${esc(vars)}">${ICON_COPY}複製</button></h3><ul class="css"><li style="white-space:pre">${esc(vars)}</li></ul></div>
+    <div class="sec"><h3>配色 prompt<button class="btn pri" data-copy="${esc(pr)}">${ICON_COPY}複製 prompt</button></h3><textarea readonly style="min-height:128px" aria-label="配色 prompt">${esc(pr)}</textarea></div>
+  </div>`;
+  show();
+}
+function show(){lastFocus=document.activeElement;$('#ov').hidden=false;$('#mb').scrollTop=0;$('#mx').focus()}
+function hide(){$('#ov').hidden=true;cur=null;if(lastFocus&&lastFocus.isConnected)lastFocus.focus()}
+function openById(id){const it=byId(id);if(!it)return;if(STYLES.includes(it))openStyle(it);else if(COLORS.includes(it))openColor(it)}
+
+document.addEventListener('click',e=>{
+  const cp=e.target.closest('[data-copy]');if(cp){copy(cp.dataset.copy);return}
+  const op=e.target.closest('[data-open]');if(op){openById(op.dataset.open);return}
+  const tg=e.target.closest('.tag[data-k]');if(tg){const f=state.f[state.tab],k=tg.dataset.k,v=tg.dataset.v;f[k]=f[k]===v?'':v;renderSide();render();return}
+  const tb=e.target.closest('.tab');if(tb){setTab(tb.dataset.tab,true);return}
+  const cd=e.target.closest('.card[role=button]');if(cd){openById(cd.dataset.id);return}
+  if(e.target.id==='ov')hide();
+});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&!$('#ov').hidden){hide();return}
+  if((e.key==='Enter'||e.key===' ')&&e.target.matches('.card[role=button]')){e.preventDefault();openById(e.target.dataset.id)}
+  if(e.key==='Tab'&&!$('#ov').hidden){const fs=$('#ov').querySelectorAll('button,select,textarea');const a=fs[0],z=fs[fs.length-1];if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()}else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}}
+});
+$('#mx').onclick=hide;
+$('#q').addEventListener('input',e=>{state.q=e.target.value;render()});
+$('#clear').onclick=()=>{state.q='';$('#q').value='';state.f[state.tab]={};renderSide();render()};
+window.addEventListener('hashchange',()=>setTab(location.hash.slice(1)||'styles'));
+$('#n-styles').textContent=STYLES.length;$('#n-colors').textContent=COLORS.length;$('#n-fonts').textContent=FONTS.length;
+setTab(location.hash.slice(1)||'styles');
+</script>
+</body>
+</html>
